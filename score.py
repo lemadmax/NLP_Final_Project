@@ -82,9 +82,9 @@ def score (keyFileName, responseFileName):
 			print("ResponseToken: " + str(responseToken))
 			print("KeyToken: " + str(keyToken))
 			exit()
-		if responseTag == keyTag:
+		if responseTag == keyTag and keyTag == 'ARG1':
 			correct = correct + 1
-		else:
+		if keyTag == 'ARG1' and responseTag != keyTag:
 			incorrect = incorrect + 1
 		if responseTag == 'ARG1':
 			responseGroupCount = responseGroupCount + 1
