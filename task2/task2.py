@@ -1,5 +1,8 @@
+from ast import Mod
+from operator import mod
 from sklearn.linear_model import LinearRegression
-from sklearn.linear_model import LogisticRegression
+from sklearn.svm import LinearSVC
+from sklearn.linear_model import SGDClassifier
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import LabelEncoder
 from nltk.stem import PorterStemmer
@@ -112,7 +115,7 @@ def GenerateDataFromFile_t2(filename):
                     data_x[i].append(1)
                 else:
                     data_x[i].append(0)
-                if data_x[i][1][0] == 'N' and data_x[i+1][2][0] != 'I':
+                if i + 1 < data_cnt and data_x[i][1][0] == 'N' and data_x[i+1][2][0] != 'I':
                     data_x[i].append(1)
                 else:
                     data_x[i].append(0)
@@ -200,6 +203,8 @@ def GenerateDataFromFile_t2(filename):
             start_index = data_cnt
             continue
         fields[0] = ps.stem(fields[0])
+        if fields[0].isdigit():
+            fields[0] = "NUM"
         ## Add word, POS, BIO
         features = fields[0:3]
         
@@ -265,39 +270,61 @@ def EncodeData(data):
 ############ Utils End ###################
 
 def run(train_filename, test_filename):
-    
-    # train_data_x, train_data_y = GenerateDataFromFile(train_filename)
-    # test_data_x, test_data_y = GenerateDataFromFile(test_filename)
 
-    # enc = OneHotEncoder()
-    # train_X = enc.fit_transform(train_data_x).toarray()
-    # print(len(train_X[0]))
-    # print(train_X[0])
-
-    # print(train_X)
-
-    # model = LinearRegression()
-    # model.fit(train_X, train_data_y)
-
-    # test_X = enc.fit_transform(test_data_x).toarray()
-    # results = model.predict(test_X[:,:])
-    # print(results[:50])
-    # GenerateResult(test_filename, results)
     train_data_x, train_data_y = GenerateDataFromFile_t2(train_filename)
-    test_data_x, test_data_y = GenerateDataFromFile_t2(train_filename)
+    test_data_x, test_data_y = GenerateDataFromFile_t2(test_filename)
 
     # train_x = EncodeData(train_data_x)
     # test_x = EncodeData(test_data_x)
-    enc = OneHotEncoder()
-    train_x = enc.fit_transform(train_data_x).toarray()
-    test_x = enc.fit_transform(test_data_x).toarray()
-    print(len(train_x[0]))
+
+    # enc = OneHotEncoder()
+    # train_x = enc.fit_transform(train_data_x).toarray()
+    # test_x = enc.fit_transform(test_data_x).toarray()
+    # print(len(train_x[0]))
     # for i in range(50):
     #     print(train_data_x[i])
 
-    model = LinearRegression()
-    model.fit(train_x, train_data_y)
-    results = model.predict(test_x[:,:])
+    # model = LinearRegression()
+    # model.fit(train_x, train_data_y)
+    # results = model.predict(test_x[:,:])
+
+    # lsvc = LinearSVC(verbose=0)
+    # lsvc.fit(train_x, train_data_y)
+    # score = lsvc.score(train_x, train_data_y)
+    # print(score)
+    # results = lsvc.predict(test_x)
+
+    # sgd = SGDClassifier()
+    # sgd.fit(train_x, train_data_y)
+    # results = sgd.predict(test_x)
+
+    # Batch system
+    enc = OneHotEncoder()
+    sgd = SGDClassifier()
+    print("Data Length: " + str(len(train_data_x)))
+
+    all_data = train_data_x.copy()
+    all_data.extend(test_data_x)
+    enc.fit(all_data)
+    all_data.clear()
+
+    batch_data = []
+    batch_y = []
+    classes = np.array([0,1])
+    for i in range(len(train_data_x)):
+        batch_data.append(train_data_x[i])
+        batch_y.append(train_data_y[i])
+        if i % 10000 == 0 or i == len(train_data_x) - 1:
+            if i == 0:
+                continue
+            train_x = enc.transform(batch_data).toarray()
+            print("Batch: " + str(i/10000) + " Features: " + str(len(train_x[0])))
+            sgd.partial_fit(train_x, batch_y, classes=classes)
+            batch_data.clear()
+            batch_y.clear()
+
+    test_x = enc.transform(test_data_x).toarray()
+    results = sgd.predict(test_x)
     # print(results[:50])
     GenerateResult(test_filename, results)
 
