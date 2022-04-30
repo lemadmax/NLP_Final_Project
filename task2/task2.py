@@ -56,7 +56,7 @@ def GenerateDataFromFile(filename):
             elif fields[5] == "PRED":
                 pred_index = data_cnt
             elif fields[5] == "ARG1": ## Set target y value to 2(represent ARG1, 0 for no arg)
-                data_y[data_cnt] = 2
+                data_y[data_cnt] = 1
         data_cnt += 1
     # print(data_x[:25])
     # print(data_y)
@@ -302,6 +302,7 @@ def run(train_filename, test_filename):
     enc = OneHotEncoder()
     sgd = SGDClassifier()
     print("Data Length: " + str(len(train_data_x)))
+    print("Features Length: " + str(len(train_data_x[0])))
 
     all_data = train_data_x.copy()
     all_data.extend(test_data_x)

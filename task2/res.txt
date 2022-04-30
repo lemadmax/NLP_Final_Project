@@ -69,7 +69,7 @@ or	CC	O	23	1
 %	NN	I-NP	25	1	PRED
 COMMA	COMMA	O	26	1
 a	DT	B-NP	27	1
-week	NN	I-NP	28	1
+week	NN	I-NP	28	1	ARG1
 after	IN	B-PP	29	1
 Black	NNP	B-NP	30	1
 Monday	NNP	I-NP	31	1
@@ -81,7 +81,7 @@ fell	VBD	O	2	2	SUPPORT
 22.6	CD	B-NP	3	2
 %	NN	I-NP	4	2	PRED
 on	IN	B-PP	5	2
-Black	NNP	B-NP	6	2
+Black	NNP	B-NP	6	2	ARG1
 Monday	NNP	I-NP	7	2	ARG1
 .	.	O	8	2
 
@@ -412,7 +412,7 @@ of	IN	B-PP	10	14
 Quantum	NNP	B-NP	11	14
 's	POS	B-NP	12	14
 polyethylene	NN	I-NP	13	14
-production	NN	I-NP	14	14
+production	NN	I-NP	14	14	ARG1
 and	CC	O	15	14
 50	CD	B-NP	16	14
 %	NN	I-NP	17	14	PRED
@@ -742,7 +742,7 @@ the	DT	O	12	26
 million	CD	I-NP	14	26
 tons	NNS	B-NP	15	26
 of	IN	B-PP	16	26
-steel	NN	B-NP	17	26
+steel	NN	B-NP	17	26	ARG1
 used	VBN	O	18	26
 annually	RB	B-ADVP	19	26
 by	IN	B-PP	20	26
@@ -782,7 +782,7 @@ Britain	NNP	B-NP	0	28
 's	POS	B-NP	1	28
 retail	JJ	I-NP	2	28
 price	NN	I-NP	3	28
-index	NN	I-NP	4	28
+index	NN	I-NP	4	28	ARG1
 rose	VBD	O	5	28	SUPPORT
 0.7	CD	B-NP	6	28
 %	NN	I-NP	7	28	PRED
@@ -1133,7 +1133,7 @@ leave	VB	O	32	39
 Ideal	NNP	B-NP	33	39
 's	POS	B-NP	34	39
 minority	NN	I-NP	35	39
-shareholders	NNS	I-NP	36	39
+shareholders	NNS	I-NP	36	39	ARG1
 with	IN	B-PP	37	39
 12.8	CD	B-NP	38	39
 %	NN	I-NP	39	39	PRED
@@ -1335,9 +1335,9 @@ COMMA	COMMA	O	2	46
 in	IN	B-PP	3	46
 the	DT	B-NP	4	46
 Oklahoma	NNP	I-NP	5	46
-panhandle	NN	I-NP	6	46
+panhandle	NN	I-NP	6	46	ARG1
 COMMA	COMMA	O	7	46
-40	CD	B-NP	8	46
+40	CD	B-NP	8	46	ARG1
 %	NN	I-NP	9	46	PRED
 or	CC	B-NP	10	46
 more	JJR	I-NP	11	46
@@ -1373,7 +1373,7 @@ is	VBZ	O	18	47
 %	NN	I-NP	20	47	PRED
 owned	VBN	O	21	47	SUPPORT
 by	IN	B-PP	22	47
-Samsung	NNP	B-NP	23	47
+Samsung	NNP	B-NP	23	47	ARG1
 and	CC	O	24	47
 30	CD	B-NP	25	47
 %	NN	I-NP	26	47
@@ -1405,7 +1405,7 @@ is	VBZ	O	18	48
 %	NN	I-NP	20	48
 owned	VBN	O	21	48
 by	IN	B-PP	22	48
-Samsung	NNP	B-NP	23	48
+Samsung	NNP	B-NP	23	48	ARG1
 and	CC	O	24	48
 30	CD	B-NP	25	48
 %	NN	I-NP	26	48	PRED
@@ -1446,7 +1446,7 @@ third	NN	I-NP	9	50
 of	IN	B-PP	10	50
 MedChem	NNP	B-NP	11	50
 's	POS	B-NP	12	50
-sales	NNS	I-NP	13	50
+sales	NNS	I-NP	13	50	ARG1
 and	CC	O	14	50
 10	CD	B-NP	15	50
 %	NN	I-NP	16	50	PRED
@@ -1454,7 +1454,7 @@ to	TO	O	17	50
 20	CD	B-NP	18	50
 %	NN	I-NP	19	50
 of	IN	B-PP	20	50
-its	PRP$	B-NP	21	50
+its	PRP$	B-NP	21	50	ARG1
 earnings	NNS	I-NP	22	50
 .	.	O	23	50
 
@@ -1545,13 +1545,13 @@ the	DT	B-NP	25	53
 paper	NN	I-NP	26	53
 's	POS	B-NP	27	53
 ad	NN	I-NP	28	53
-revenue	NN	I-NP	29	53
+revenue	NN	I-NP	29	53	ARG1
 increased	VBD	O	30	53	SUPPORT
 8	CD	B-NP	31	53
 %	NN	I-NP	32	53	PRED
 in	IN	B-PP	33	53
 the	DT	B-NP	34	53
-quarter	NN	I-NP	35	53
+quarter	NN	I-NP	35	53	ARG1
 and	CC	O	36	53
 13	CD	B-NP	37	53
 %	NN	I-NP	38	53
@@ -1596,7 +1596,7 @@ increased	VBD	O	30	54	SUPPORT
 %	NN	I-NP	32	54
 in	IN	B-PP	33	54
 the	DT	B-NP	34	54
-quarter	NN	I-NP	35	54
+quarter	NN	I-NP	35	54	ARG1
 and	CC	O	36	54
 13	CD	B-NP	37	54
 %	NN	I-NP	38	54	PRED
@@ -1613,7 +1613,7 @@ months	NNS	I-NP	3	55
 COMMA	COMMA	O	4	55
 Gannett	NNP	B-NP	5	55
 's	POS	B-NP	6	55
-net	NN	I-NP	7	55
+net	NN	I-NP	7	55	ARG1
 rose	VBD	O	8	55	SUPPORT
 9.5	CD	B-NP	9	55
 %	NN	I-NP	10	55	PRED
@@ -1640,7 +1640,7 @@ a	DT	B-NP	30	55
 share	NN	I-NP	31	55
 .	.	O	32	55
 
-Revenue	NN	B-NP	0	56
+Revenue	NN	B-NP	0	56	ARG1
 gained	VBD	O	1	56	SUPPORT
 6	CD	B-NP	2	56
 %	NN	I-NP	3	56	PRED
@@ -1876,7 +1876,7 @@ of	IN	I-PP	19	65
 the	DT	B-NP	20	65
 performance	NN	I-NP	21	65
 of	IN	B-PP	22	65
-its	PRP$	B-NP	23	65
+its	PRP$	B-NP	23	65	ARG1
 new	JJ	I-NP	24	65
 anti-depressant	NN	I-NP	25	65
 Prozac	NNP	I-NP	26	65
@@ -2149,7 +2149,7 @@ between	IN	B-NP	21	73
 11	CD	I-NP	22	73
 %	NN	I-NP	23	73
 and	CC	I-NP	24	73
-14	CD	I-NP	25	73
+14	CD	I-NP	25	73	ARG1
 %	NN	I-NP	26	73	PRED
 .	.	O	27	73
 
@@ -2398,7 +2398,7 @@ a	DT	O	37	80
 %	NN	I-NP	39	80	PRED
 stake	NN	B-NP	40	80	SUPPORT
 in	IN	B-PP	41	80
-Turner	NNP	B-NP	42	80
+Turner	NNP	B-NP	42	80	ARG1
 Broadcasting	NNP	I-NP	43	80
 .	.	O	44	80
 
@@ -2565,7 +2565,7 @@ prices	NNS	B-NP	13	86
 for	IN	B-PP	14	86
 home	NN	B-NP	15	86
 electronic	JJ	I-NP	16	86
-equipment	NN	I-NP	17	86
+equipment	NN	I-NP	17	86	ARG1
 fell	VBD	O	18	86	SUPPORT
 1.1	CD	B-NP	19	86
 %	NN	I-NP	20	86	PRED
@@ -2609,7 +2609,7 @@ August	NNP	B-NP	11	88	ARG1
 .	.	O	12	88
 
 Food	NN	B-NP	0	89
-prices	NNS	I-NP	1	89
+prices	NNS	I-NP	1	89	ARG1
 declined	VBD	O	2	89	SUPPORT
 0.6	CD	B-NP	3	89
 %	NN	I-NP	4	89	PRED
@@ -2631,7 +2631,7 @@ report	NN	I-NP	5	90
 showed	VBD	O	6	90
 that	IN	B-SBAR	7	90
 car	NN	B-NP	8	90
-sales	NNS	I-NP	9	90
+sales	NNS	I-NP	9	90	ARG1
 rose	VBD	O	10	90	SUPPORT
 0.8	CD	B-NP	11	90
 %	NN	I-NP	12	90	PRED
@@ -2734,7 +2734,7 @@ Sales	NNS	B-NP	0	94
 at	IN	B-PP	1	94
 general	JJ	B-NP	2	94
 merchandise	NN	I-NP	3	94
-stores	NNS	I-NP	4	94
+stores	NNS	I-NP	4	94	ARG1
 rose	VBD	O	5	94	SUPPORT
 1.7	CD	B-NP	6	94
 %	NN	I-NP	7	94	PRED
@@ -2763,7 +2763,7 @@ Producer	NN	B-NP	0	95
 prices	NNS	I-NP	1	95
 for	IN	B-PP	2	95
 intermediate	JJ	B-NP	3	95
-goods	NNS	I-NP	4	95
+goods	NNS	I-NP	4	95	ARG1
 grew	VBD	O	5	95	SUPPORT
 0.4	CD	B-NP	6	95
 %	NN	I-NP	7	95	PRED
@@ -2891,12 +2891,12 @@ reported	VBD	O	22	99
 Friday	NNP	B-NP	23	99
 that	IN	B-SBAR	24	99
 retail	JJ	B-NP	25	99
-sales	NNS	I-NP	26	99
+sales	NNS	I-NP	26	99	ARG1
 grew	VBD	O	27	99	SUPPORT
 0.5	CD	B-NP	28	99
 %	NN	I-NP	29	99	PRED
 in	IN	B-PP	30	99
-September	NNP	B-NP	31	99
+September	NNP	B-NP	31	99	ARG1
 COMMA	COMMA	O	32	99
 to	IN	B-PP	33	99
 $	$	O	34	99
@@ -3145,7 +3145,7 @@ about	RB	B-ADVP	10	106
 2	CD	B-NP	11	106
 %	NN	I-NP	12	106	PRED
 since	IN	B-PP	13	106
-January	NNP	B-NP	14	106
+January	NNP	B-NP	14	106	ARG1
 and	CC	O	15	106
 is	VBZ	O	16	106
 expected	VBN	O	17	106
@@ -3176,7 +3176,7 @@ down	IN	B-PP	9	107
 %	NN	I-NP	11	107	PRED
 from	IN	B-PP	12	107
 a	DT	B-NP	13	107
-year	NN	I-NP	14	107
+year	NN	I-NP	14	107	ARG1
 ago	RB	B-ADVP	15	107
 COMMA	COMMA	O	16	107
 and	CC	B-CONJP	17	107
@@ -3210,7 +3210,7 @@ COMMA	COMMA	O	44	107
 manager	NN	B-NP	45	107
 of	IN	B-PP	46	107
 crude	JJ	B-NP	47	107
-oil	NN	I-NP	48	107	ARG1
+oil	NN	I-NP	48	107
 with	IN	B-PP	49	107
 Calgary	NNP	B-NP	50	107
 's	POS	B-NP	51	107
@@ -3401,7 +3401,7 @@ COMMA	COMMA	O	2	114
 10	CD	B-NP	3	114
 %	NN	I-NP	4	114	PRED
 of	IN	B-PP	5	114
-those	DT	B-NP	6	114
+those	DT	B-NP	6	114	ARG1
 aged	VBN	O	7	114
 65	CD	B-NP	8	114
 to	TO	I-NP	9	114
@@ -3425,7 +3425,7 @@ Only	RB	B-ADVP	0	115
 17	CD	B-NP	1	115
 %	NN	I-NP	2	115	PRED
 of	IN	B-PP	3	115
-those	DT	B-NP	4	115
+those	DT	B-NP	4	115	ARG1
 aged	VBN	O	5	115
 75	CD	B-NP	6	115
 and	CC	O	7	115
@@ -3471,7 +3471,7 @@ their	PRP$	B-NP	1	117
 considerable	JJ	I-NP	2	117
 incomes	NNS	I-NP	3	117
 and	CC	I-NP	4	117
-assets	NNS	I-NP	5	117
+assets	NNS	I-NP	5	117	ARG1
 COMMA	COMMA	O	6	117
 40	CD	B-NP	7	117
 %	NN	I-NP	8	117	PRED
@@ -3766,7 +3766,7 @@ giant	NN	B-NP	5	127
 insurance	NN	I-NP	6	127
 and	CC	I-NP	7	127
 banking	NN	I-NP	8	127
-stocks	NNS	I-NP	9	127
+stocks	NNS	I-NP	9	127	ARG1
 dropped	VBD	O	10	127	SUPPORT
 2	CD	B-NP	11	127
 %	NN	I-NP	12	127	PRED
@@ -4025,7 +4025,7 @@ had	VBD	O	23	136
 shown	VBN	O	24	136	SUPPORT
 losses	NNS	B-NP	25	136	SUPPORT
 of	IN	B-PP	26	136	SUPPORT
-10	CD	B-NP	27	136
+10	CD	B-NP	27	136	ARG1
 %	NN	I-NP	28	136	PRED
 for	IN	B-PP	29	136
 the	DT	B-NP	30	136
@@ -4092,7 +4092,7 @@ of	IN	B-PP	15	139
 the	DT	B-NP	16	139
 U.S.	NNP	I-NP	17	139
 laptop	NN	I-NP	18	139
-market	NN	I-NP	19	139
+market	NN	I-NP	19	139	ARG1
 but	CC	O	20	139
 recently	RB	B-ADVP	21	139
 agreed	VBD	O	22	139
@@ -4144,7 +4144,7 @@ the	DT	B-NP	26	140
 annual	JJ	I-NP	27	140
 rate	NN	I-NP	28	140
 of	IN	B-PP	29	140
-inflation	NN	B-NP	30	140
+inflation	NN	B-NP	30	140	ARG1
 to	IN	B-PP	31	140
 6.8	CD	B-NP	32	140
 %	NN	I-NP	33	140
@@ -4243,7 +4243,7 @@ rose	VBD	O	6	143	SUPPORT
 %	NN	I-NP	8	143	PRED
 from	IN	B-PP	9	143
 a	DT	B-NP	10	143
-year	NN	I-NP	11	143
+year	NN	I-NP	11	143	ARG1
 earlier	RBR	B-ADVP	12	143
 and	CC	O	13	143
 were	VBD	O	14	143
@@ -4267,7 +4267,7 @@ Ford	NNP	B-NP	0	144
 Motor	NNP	I-NP	1	144
 Co.	NNP	I-NP	2	144
 said	VBD	O	3	144
-it	PRP	B-NP	4	144
+it	PRP	B-NP	4	144	ARG1
 acquired	VBD	O	5	144
 5	CD	B-NP	6	144
 %	NN	I-NP	7	144	PRED
@@ -4305,7 +4305,7 @@ as	IN	B-SBAR	22	145
 15	CD	B-NP	23	145
 %	NN	I-NP	24	145	PRED
 of	IN	B-PP	25	145
-Jaguar	NNP	B-NP	26	145
+Jaguar	NNP	B-NP	26	145	ARG1
 shares	NNS	I-NP	27	145	ARG1
 .	.	O	28	145
 
@@ -4449,7 +4449,7 @@ minor	JJ	I-NP	19	150
 increase	NN	I-NP	20	150
 to	IN	B-PP	21	150
 the	DT	B-NP	22	150
-steel	NN	I-NP	23	150
+steel	NN	I-NP	23	150	ARG1
 allotment	NN	I-NP	24	150	PRED
 for	IN	B-PP	25	150
 the	DT	B-NP	26	150
@@ -4471,10 +4471,10 @@ Great	NNP	B-NP	10	151
 Plains	NNP	I-NP	11	151
 and	CC	B-PP	12	151
 in	IN	B-PP	13	151
-wheat-growing	NN	B-NP	14	151
+wheat-growing	NN	B-NP	14	151	ARG1
 areas	NNS	I-NP	15	151	PRED
 in	IN	B-PP	16	151
-Washington	NNP	B-NP	17	151
+Washington	NNP	B-NP	17	151	ARG1
 and	CC	I-NP	18	151
 Oregon	NNP	I-NP	19	151
 is	VBZ	O	20	151
@@ -4653,7 +4653,7 @@ a	DT	B-NP	9	157
 firm	JJ	I-NP	10	157
 base	NN	I-NP	11	157	PRED
 of	IN	B-PP	12	157
-small-investor	NN	B-NP	13	157
+small-investor	NN	B-NP	13	157	ARG1
 participation	NN	I-NP	14	157	ARG1
 .	.	O	15	157
 
@@ -4735,7 +4735,7 @@ the	DT	B-NP	6	160
 plunge	NN	I-NP	7	160
 even	RB	O	8	160
 though	IN	O	9	160
-it	PRP	B-NP	10	160
+it	PRP	B-NP	10	160	ARG1
 lopped	VBD	O	11	160
 billions	NNS	B-NP	12	160	PRED
 of	IN	B-PP	13	160
@@ -4745,7 +4745,7 @@ the	DT	B-NP	16	160
 value	NN	I-NP	17	160
 of	IN	B-PP	18	160
 their	PRP$	B-NP	19	160
-companies	NNS	I-NP	20	160
+companies	NNS	I-NP	20	160	ARG1
 --	:	O	21	160
 and	CC	O	22	160
 millions	NNS	B-NP	23	160
@@ -4877,7 +4877,7 @@ ethylene	NN	B-NP	5	164
 COMMA	COMMA	O	6	164
 the	DT	B-NP	7	164
 chemical	JJ	I-NP	8	164
-building	NN	I-NP	9	164
+building	NN	I-NP	9	164	ARG1
 block	NN	I-NP	10	164	PRED
 of	IN	B-PP	11	164
 polyethylene	NN	B-NP	12	164	ARG1
@@ -4967,7 +4967,7 @@ current	JJ	I-NP	10	167
 board	NN	I-NP	11	167	PRED
 COMMA	COMMA	O	12	167
 whose	WP$	B-NP	13	167
-chairman	NN	I-NP	14	167
+chairman	NN	I-NP	14	167	ARG1
 is	VBZ	O	15	167
 Maurice	NNP	B-NP	16	167
 Saatchi	NNP	I-NP	17	167
@@ -4999,7 +4999,7 @@ to	TO	O	11	168
 avoid	VB	O	12	168
 permanent	JJ	B-NP	13	168
 across-the-board	NN	I-NP	14	168	PRED
-cuts	NNS	I-NP	15	168
+cuts	NNS	I-NP	15	168	ARG1
 COMMA	COMMA	O	16	168
 but	CC	B-CONJP	17	168
 added	VBD	O	18	168
@@ -5159,7 +5159,7 @@ These	DT	B-NP	0	173
 ``	``	I-NP	1	173
 clean-bank	NN	I-NP	2	173
 ''	''	I-NP	3	173
-transactions	NNS	I-NP	4	173
+transactions	NNS	I-NP	4	173	ARG1
 leave	VBP	O	5	173
 the	DT	B-NP	6	173
 bulk	NN	I-NP	7	173	PRED
@@ -5337,7 +5337,7 @@ worms	NNS	B-NP	6	179	ARG1
 Addison	NNP	B-NP	0	180
 is	VBZ	O	1	180
 no	DT	B-NP	2	180
-stranger	NN	I-NP	3	180
+stranger	NN	I-NP	3	180	ARG1
 to	IN	B-PP	4	180
 cans	NNS	B-NP	5	180	PRED
 of	IN	B-PP	6	180
@@ -5403,10 +5403,10 @@ Merksamer	NNP	B-NP	32	182
 Jewelers	NNP	I-NP	33	182
 COMMA	COMMA	O	34	182
 a	DT	B-NP	35	182
-Sacramento	NNP	I-NP	36	182
+Sacramento	NNP	I-NP	36	182	ARG1
 chain	NN	I-NP	37	182	PRED
 ;	:	O	38	182
-Sakowitz	NNP	B-NP	39	182
+Sakowitz	NNP	B-NP	39	182	ARG1
 Inc.	NNP	I-NP	40	182
 COMMA	COMMA	O	41	182
 the	DT	B-NP	42	182
@@ -5579,11 +5579,11 @@ and	CC	I-NP	38	186
 Saks	NNP	I-NP	39	186
 Fifth	NNP	B-NP	40	186
 Avenue	NNP	I-NP	41	186
-department-store	NN	B-NP	42	186
+department-store	NN	B-NP	42	186	ARG1
 chains	NNS	I-NP	43	186	PRED
 are	VBP	O	44	186
 for	IN	B-PP	45	186
-sale	NN	B-NP	46	186
+sale	NN	B-NP	46	186	ARG1
 .	.	O	47	186
 
 All	DT	B-NP	0	187
@@ -5699,7 +5699,7 @@ Some	RB	B-ADVP	0	191
 500	CD	B-NP	1	191
 investors	NNS	I-NP	2	191
 representing	VBG	O	3	191
-investor	NN	B-NP	4	191
+investor	NN	B-NP	4	191	ARG1
 clubs	NNS	I-NP	5	191	PRED
 from	IN	B-PP	6	191
 around	IN	B-PP	7	191
@@ -5757,7 +5757,7 @@ year	NN	I-NP	11	193
 to	TO	O	12	193
 swamp	VB	O	13	193
 the	DT	B-NP	14	193
-Texas-Louisiana	NNP	I-NP	15	193
+Texas-Louisiana	NNP	I-NP	15	193	ARG1
 coast	NN	I-NP	16	193	PRED
 .	.	O	17	193
 
@@ -5865,7 +5865,7 @@ the	DT	B-NP	27	197
 Pentagon	NNP	I-NP	28	197
 and	CC	O	29	197
 the	DT	B-NP	30	197
-intelligence	NN	I-NP	31	197
+intelligence	NN	I-NP	31	197	ARG1
 community	NN	I-NP	32	197	PRED
 .	.	O	33	197
 
@@ -5913,7 +5913,7 @@ payers	NNS	I-NP	12	199
 in	IN	B-PP	13	199
 the	DT	B-NP	14	199
 Texas	NNP	I-NP	15	199
-market	NN	I-NP	16	199
+market	NN	I-NP	16	199	ARG1
 COMMA	COMMA	O	17	199
 and	CC	B-CONJP	18	199
 in	IN	B-PP	19	199
@@ -5939,7 +5939,7 @@ the	DT	B-NP	7	200
 capacity	NN	I-NP	8	200
 of	IN	B-PP	9	200
 the	DT	B-NP	10	200
-financial	JJ	I-NP	11	200
+financial	JJ	I-NP	11	200	ARG1
 community	NN	I-NP	12	200	PRED
 for	IN	B-PP	13	200
 recurrent	JJ	B-NP	14	200
@@ -5974,11 +5974,11 @@ Thirties	NNS	I-NP	15	201
 much	RB	O	17	201
 as	IN	O	18	201
 the	DT	B-NP	19	201
-financial	JJ	I-NP	20	201
+financial	JJ	I-NP	20	201	ARG1
 community	NN	I-NP	21	201	PRED
 and	CC	O	22	201
 the	DT	B-NP	23	201
-government	NN	I-NP	24	201
+government	NN	I-NP	24	201	ARG1
 may	MD	O	25	201
 try	VB	O	26	201
 .	.	O	27	201
@@ -6050,7 +6050,7 @@ for	IN	B-PP	20	203
 most	DT	B-NP	21	203
 of	IN	B-PP	22	203
 L.J.	NNP	B-NP	23	203
-Hooker	NNP	I-NP	24	203
+Hooker	NNP	I-NP	24	203	ARG1
 Corp.	NNP	I-NP	25	203
 's	POS	B-NP	26	203
 real-estate	NN	I-NP	27	203
@@ -6094,7 +6094,7 @@ corners	NNS	I-NP	7	205	PRED
 of	IN	B-PP	8	205
 the	DT	B-NP	9	205
 OTC	NNP	I-NP	10	205
-market	NN	I-NP	11	205
+market	NN	I-NP	11	205	ARG1
 --	:	O	12	205
 big	JJ	B-NP	13	205
 and	CC	I-NP	14	205
@@ -6132,7 +6132,7 @@ spirits	NNS	I-NP	2	207
 on	IN	B-PP	3	207
 Addison	NNP	B-NP	4	207
 's	POS	B-NP	5	207
-town	NN	I-NP	6	207
+town	NN	I-NP	6	207	ARG1
 council	NN	I-NP	7	207	PRED
 have	VBP	O	8	207
 barred	VBN	O	9	207
@@ -6260,7 +6260,7 @@ this	DT	B-NP	27	210
 season	NN	I-NP	28	210
 's	POS	B-NP	29	210
 winter	NN	I-NP	30	210
-wheat	NN	I-NP	31	210
+wheat	NN	I-NP	31	210	ARG1
 crop	NN	I-NP	32	210	PRED
 COMMA	COMMA	O	33	210
 said	VBD	O	34	210
@@ -6344,7 +6344,7 @@ The	DT	B-NP	0	213
 cream	NN	I-NP	1	213
 of	IN	B-PP	2	213
 the	DT	B-NP	3	213
-British	JJ	I-NP	4	213
+British	JJ	I-NP	4	213	ARG1
 crop	NN	I-NP	5	213	PRED
 COMMA	COMMA	O	6	213
 the	DT	B-NP	7	213
@@ -6478,7 +6478,7 @@ of	IN	B-PP	15	216
 the	DT	B-NP	16	216
 union	NN	I-NP	17	216	ARG1
 's	POS	B-NP	18	216
-GM	NNP	I-NP	19	216
+GM	NNP	I-NP	19	216	ARG1
 department	NN	I-NP	20	216	PRED
 COMMA	COMMA	O	21	216
 issued	VBD	O	22	216
@@ -6514,7 +6514,7 @@ television	NN	I-NP	13	217	ARG1
 dial	NN	I-NP	14	217	PRED
 suggest	VBP	O	15	217
 one	CD	B-NP	16	217
-reason	NN	I-NP	17	217
+reason	NN	I-NP	17	217	ARG1
 why	WRB	B-ADVP	18	217
 .	.	O	19	217
 
@@ -6590,7 +6590,7 @@ agreement	NN	I-NP	13	220
 to	TO	O	14	220
 merge	VB	O	15	220
 their	PRP$	B-NP	16	220
-guided-missile	NN	I-NP	17	220
+guided-missile	NN	I-NP	17	220	ARG1
 divisions	NNS	I-NP	18	220	PRED
 COMMA	COMMA	O	19	220
 greatly	RB	B-ADVP	20	220
@@ -6619,7 +6619,7 @@ COMMA	COMMA	O	12	221
 a	DT	B-NP	13	221
 division	NN	I-NP	14	221	PRED
 of	IN	B-PP	15	221
-North	NNP	B-NP	16	221
+North	NNP	B-NP	16	221	ARG1
 American	NNP	I-NP	17	221
 Philips	NNP	I-NP	18	221
 Corp.	NNP	I-NP	19	221
@@ -6656,7 +6656,7 @@ for	IN	B-PP	1	223
 dozens	NNS	B-NP	2	223	PRED
 of	IN	B-PP	3	223
 insolvent	JJ	B-NP	4	223
-savings	NNS	I-NP	5	223
+savings	NNS	I-NP	5	223	ARG1
 and	CC	I-NP	6	223
 loan	NN	I-NP	7	223
 associations	NNS	I-NP	8	223
@@ -6748,7 +6748,7 @@ of	IN	B-PP	9	226	SUPPORT
 ``	``	O	10	226
 hostile	JJ	B-NP	11	226
 and	CC	I-NP	12	226
-anti-party	JJ	I-NP	13	226
+anti-party	JJ	I-NP	13	226	ARG1
 elements	NNS	I-NP	14	226	PRED
 ''	''	O	15	226
 and	CC	O	16	226
@@ -6892,7 +6892,7 @@ at	IN	B-PP	3	232
 a	DT	B-NP	4	232
 high-tech	NN	I-NP	5	232
 nerve	NN	I-NP	6	232
-center	NN	I-NP	7	232
+center	NN	I-NP	7	232	ARG1
 on	IN	B-PP	8	232
 the	DT	B-NP	9	232
 floor	NN	I-NP	10	232	PRED
@@ -6907,7 +6907,7 @@ could	MD	O	18	232
 watch	VB	O	19	232
 updates	NNS	B-NP	20	232
 on	IN	B-PP	21	232
-prices	NNS	B-NP	22	232
+prices	NNS	B-NP	22	232	ARG1
 and	CC	O	23	232
 pending	VBG	B-NP	24	232
 stock	NN	I-NP	25	232
@@ -6926,7 +6926,7 @@ able	JJ	B-ADJP	8	233
 to	TO	O	9	233
 handle	VB	O	10	233
 the	DT	B-NP	11	233
-imbalances	NNS	I-NP	12	233
+imbalances	NNS	I-NP	12	233	ARG1
 on	IN	B-PP	13	233
 the	DT	B-NP	14	233
 floor	NN	I-NP	15	233	PRED
@@ -7001,7 +7001,7 @@ Saatchi	NNP	I-NP	17	235
 and	CC	B-CONJP	18	235
 whose	WP$	B-NP	19	235
 strategic	JJ	I-NP	20	235
-guiding	VBG	I-NP	21	235
+guiding	VBG	I-NP	21	235	ARG1
 force	NN	I-NP	22	235	PRED
 is	VBZ	O	23	235
 believed	VBN	O	24	235
@@ -7023,7 +7023,7 @@ reduce	VB	O	8	236
 capacity	NN	B-NP	9	236
 and	CC	O	10	236
 the	DT	B-NP	11	236
-work	NN	I-NP	12	236
+work	NN	I-NP	12	236	ARG1
 force	NN	I-NP	13	236	PRED
 in	IN	B-PP	14	236
 place	NN	B-NP	15	236	ARG1
@@ -7093,11 +7093,11 @@ the	DT	B-NP	7	239
 reduction	NN	I-NP	8	239
 of	IN	B-PP	9	239
 U.S.	NNP	B-NP	10	239
-military	JJ	I-NP	11	239
+military	JJ	I-NP	11	239	ARG1
 forces	NNS	I-NP	12	239	PRED
 in	IN	B-PP	13	239
 South	NNP	B-NP	14	239
-Korea	NNP	I-NP	15	239
+Korea	NNP	I-NP	15	239	ARG1
 COMMA	COMMA	O	16	239
 is	VBZ	O	17	239
 to	TO	O	18	239
@@ -7157,7 +7157,7 @@ ties	NNS	B-NP	7	241
 between	IN	B-PP	8	241
 the	DT	B-NP	9	241
 two	CD	I-NP	10	241
-companies	NNS	I-NP	11	241
+companies	NNS	I-NP	11	241	ARG1
 COMMA	COMMA	O	12	241
 and	CC	O	13	241
 help	VB	O	14	241
@@ -7206,7 +7206,7 @@ the	DT	B-NP	30	242
 airline	NN	I-NP	31	242
 by	IN	B-PP	32	242
 an	DT	B-NP	33	242
-employee-management	NN	I-NP	34	242
+employee-management	NN	I-NP	34	242	ARG1
 group	NN	I-NP	35	242	PRED
 .	.	O	36	242
 
@@ -7222,7 +7222,7 @@ came	VBD	O	8	243
 news	NN	B-NP	9	243
 that	IN	B-SBAR	10	243
 the	DT	B-NP	11	243
-UAL	NNP	I-NP	12	243
+UAL	NNP	I-NP	12	243	ARG1
 group	NN	I-NP	13	243	PRED
 could	MD	O	14	243
 n't	RB	B-ADVP	15	243
@@ -7267,7 +7267,7 @@ Inc	NNP	I-NP	30	244
 .	.	O	31	244
 
 Major	JJ	B-NP	0	245
-mutual-fund	NN	I-NP	1	245
+mutual-fund	NN	I-NP	1	245	ARG1
 groups	NNS	I-NP	2	245	PRED
 said	VBD	O	3	245
 phone	NN	B-NP	4	245
@@ -7285,7 +7285,7 @@ yesterday	NN	B-NP	14	245
 
 Still	RB	O	0	246
 COMMA	COMMA	O	1	246
-fund	NN	B-NP	2	246
+fund	NN	B-NP	2	246	ARG1
 groups	NNS	I-NP	3	246	PRED
 are	VBP	O	4	246
 n't	RB	B-ADVP	5	246
@@ -7338,7 +7338,7 @@ a	DT	B-NP	7	248
 recent	JJ	I-NP	8	248
 COMMA	COMMA	I-NP	9	248
 impassioned	JJ	I-NP	10	248
-speech	NN	I-NP	11	248
+speech	NN	I-NP	11	248	ARG1
 to	IN	B-PP	12	248
 a	DT	B-NP	13	248
 group	NN	I-NP	14	248	PRED
@@ -7463,7 +7463,7 @@ COMMA	COMMA	O	44	251
 manager	NN	B-NP	45	251
 of	IN	B-PP	46	251
 crude	JJ	B-NP	47	251
-oil	NN	I-NP	48	251	ARG1
+oil	NN	I-NP	48	251
 with	IN	B-PP	49	251
 Calgary	NNP	B-NP	50	251
 's	POS	B-NP	51	251
@@ -7489,7 +7489,7 @@ of	IN	B-PP	7	252
 today	NN	B-NP	8	252
 's	POS	B-NP	9	252
 fastest-growing	NN	I-NP	10	252
-income	NN	I-NP	11	252
+income	NN	I-NP	11	252	ARG1
 groups	NNS	I-NP	12	252	PRED
 COMMA	COMMA	O	13	252
 the	DT	B-NP	14	252
@@ -7508,7 +7508,7 @@ bonds	NNS	I-NP	7	253
 COMMA	COMMA	O	8	253
 via	IN	B-PP	9	253
 a	DT	B-NP	10	253
-PaineWebber	NNP	I-NP	11	253
+PaineWebber	NNP	I-NP	11	253	ARG1
 group	NN	I-NP	12	253	PRED
 .	.	O	13	253
 
@@ -7522,7 +7522,7 @@ bonds	NNS	B-NP	6	254
 COMMA	COMMA	O	7	254
 via	IN	B-PP	8	254
 a	DT	B-NP	9	254
-Prudential-Bache	NNP	I-NP	10	254
+Prudential-Bache	NNP	I-NP	10	254	ARG1
 group	NN	I-NP	11	254	PRED
 .	.	O	12	254
 
@@ -7539,7 +7539,7 @@ Series	NN	B-NP	8	255
 COMMA	COMMA	O	10	255
 via	IN	B-PP	11	255
 a	DT	B-NP	12	255
-PaineWebber	NNP	I-NP	13	255
+PaineWebber	NNP	I-NP	13	255	ARG1
 group	NN	I-NP	14	255	PRED
 .	.	O	15	255
 
@@ -7565,7 +7565,7 @@ Poquet	NNP	B-NP	18	256
 also	RB	O	19	256
 encountered	VBD	O	20	256
 in	IN	B-PP	21	256
-focus	NN	B-NP	22	256
+focus	NN	B-NP	22	256	ARG1
 groups	NNS	I-NP	23	256	PRED
 COMMA	COMMA	O	24	256
 admits	VBZ	O	25	256
@@ -7849,7 +7849,7 @@ their	PRP$	B-NP	6	267	ARG1
 heads	NNS	I-NP	7	267	PRED
 when	IN	O	8	267
 the	DT	B-NP	9	267
-news	NN	I-NP	10	267
+news	NN	I-NP	10	267	ARG1
 flashed	VBD	O	11	267
 .	.	O	12	267
 
@@ -7944,7 +7944,7 @@ impassioned	JJ	I-NP	10	271
 speech	NN	I-NP	11	271
 to	IN	B-PP	12	271
 a	DT	B-NP	13	271
-group	NN	I-NP	14	271	ARG1
+group	NN	I-NP	14	271
 of	IN	B-PP	15	271
 hundreds	NNS	B-NP	16	271	PRED
 of	IN	B-PP	17	271
@@ -8056,7 +8056,7 @@ divest	VB	O	25	274
 themselves	PRP	B-NP	26	274
 of	IN	B-PP	27	274
 such	DT	B-NP	28	274
-bonds	NNS	I-NP	29	274	ARG1
+bonds	NNS	I-NP	29	274
 .	.	O	30	274
 
 The	DT	B-NP	0	275
@@ -8181,7 +8181,7 @@ giants	NNS	I-NP	15	280
 have	VBP	O	17	280	SUPPORT
 much	RB	B-ADVP	18	280
 broader	JJR	B-NP	19	280
-business	NN	I-NP	20	280
+business	NN	I-NP	20	280	ARG1
 interests	NNS	I-NP	21	280	PRED
 and	CC	B-CONJP	22	280
 so	RB	B-ADVP	23	280
@@ -8222,7 +8222,7 @@ Jaguar	NNP	B-NP	7	282
 about	IN	B-PP	8	282
 acquiring	VBG	O	9	282
 a	DT	B-NP	10	282
-minority	NN	I-NP	11	282
+minority	NN	I-NP	11	282	ARG1
 interest	NN	I-NP	12	282	PRED
 .	.	O	13	282
 
@@ -8261,13 +8261,13 @@ machines	NNS	I-NP	2	284
 are	VBP	O	3	284
 still	RB	B-ADVP	4	284
 considered	VBN	O	5	284
-novelties	NNS	B-NP	6	284
+novelties	NNS	B-NP	6	284	ARG1
 COMMA	COMMA	O	7	284
 with	IN	B-PP	8	284
 keyboards	NNS	B-NP	9	284	PRED
 only	RB	B-ADVP	10	284
 a	DT	B-NP	11	284
-munchkin	NN	I-NP	12	284
+munchkin	NN	I-NP	12	284	ARG1
 could	MD	O	13	284
 love	VB	O	14	284
 and	CC	O	15	284
@@ -8304,7 +8304,7 @@ people	NNS	I-NP	23	285
 that	WDT	B-NP	25	285
 would	MD	O	26	285
 sound	VB	O	27	285
-shmaltzy	NN	B-NP	28	285
+shmaltzy	NN	B-NP	28	285	ARG1
 on	IN	B-PP	29	285
 the	DT	B-NP	30	285
 lips	NNS	I-NP	31	285	PRED
@@ -8354,7 +8354,7 @@ hotel	NN	B-NP	22	287	ARG1
 lobbies	NNS	I-NP	23	287	PRED
 COMMA	COMMA	O	24	287
 office	NN	B-NP	25	287
-lobbies	NNS	I-NP	26	287
+lobbies	NNS	I-NP	26	287	ARG1
 COMMA	COMMA	O	27	287
 hospitality	NN	B-NP	28	287
 lounges	NNS	I-NP	29	287
@@ -8429,7 +8429,7 @@ Morris	NNP	B-NP	27	289
 Snezak	NNP	I-NP	28	289
 )	)	O	29	289
 COMMA	COMMA	O	30	289
-whose	WP$	O	31	289
+whose	WP$	O	31	289	ARG1
 lobbies	NNS	B-NP	32	289	PRED
 and	CC	I-NP	33	289
 hallways	NNS	I-NP	34	289	ARG1
@@ -8473,7 +8473,7 @@ redemption	NN	I-NP	7	291
 levels	NNS	I-NP	8	291
 over	IN	B-PP	9	291
 the	DT	B-NP	10	291
-weekend	NN	I-NP	11	291
+weekend	NN	I-NP	11	291	ARG1
 and	CC	O	12	291
 a	DT	B-NP	13	291
 lot	NN	I-NP	14	291	PRED
@@ -8517,7 +8517,7 @@ whole	JJ	I-NP	14	292
 lot	NN	I-NP	15	292	PRED
 longer	RBR	B-ADVP	16	292
 than	IN	B-SBAR	17	292
-anybody	NN	B-NP	18	292
+anybody	NN	B-NP	18	292	ARG1
 thinks	VBZ	O	19	292
 .	.	O	20	292
 ''	''	O	21	292
@@ -8548,7 +8548,7 @@ The	DT	B-NP	1	294
 explosion	NN	I-NP	2	294
 of	IN	B-PP	3	294
 junk	NN	B-NP	4	294
-bonds	NNS	I-NP	5	294
+bonds	NNS	I-NP	5	294	ARG1
 and	CC	O	6	294
 takeovers	NNS	B-NP	7	294
 has	VBZ	O	8	294
@@ -8562,7 +8562,7 @@ in	IN	B-PP	15	294
 the	DT	B-NP	16	294
 hands	NNS	I-NP	17	294
 of	IN	B-PP	18	294
-investors	NNS	B-NP	19	294
+investors	NNS	B-NP	19	294	ARG1
 and	CC	O	20	294
 loaded	VBN	O	21	294
 the	DT	B-NP	22	294
@@ -8572,7 +8572,7 @@ are	VBP	O	25	294
 the	DT	B-NP	26	294
 objects	NNS	I-NP	27	294
 of	IN	B-PP	28	294
-takeovers	NNS	B-NP	29	294
+takeovers	NNS	B-NP	29	294	ARG1
 or	CC	O	30	294
 feared	VBN	O	31	294
 takeovers	NNS	B-NP	32	294
@@ -8747,7 +8747,7 @@ a	DT	B-NP	8	300
 majority	NN	I-NP	9	300	PRED
 position	NN	I-NP	10	300	SUPPORT
 in	IN	B-PP	11	300
-Hooker	NNP	B-NP	12	300
+Hooker	NNP	B-NP	12	300	ARG1
 Corp.	NNP	I-NP	13	300
 was	VBD	O	14	300
 acquired	VBN	O	15	300
@@ -8843,7 +8843,7 @@ force	NN	I-NP	20	302
 in	IN	B-PP	21	302
 the	DT	B-NP	22	302
 high	JJ	I-NP	23	302
-court	NN	I-NP	24	302
+court	NN	I-NP	24	302	ARG1
 's	POS	B-NP	25	302
 majority	NN	I-NP	26	302	PRED
 .	.	O	27	302
@@ -8925,7 +8925,7 @@ Most	DT	B-NP	0	306
 of	IN	B-PP	1	306
 the	DT	B-NP	2	306
 Western	JJ	I-NP	3	306
-European	NNP	I-NP	4	306
+European	NNP	I-NP	4	306	ARG1
 members	NNS	I-NP	5	306	PRED
 of	IN	B-PP	6	306
 Coordinating	NNP	B-NP	7	306
@@ -8985,7 +8985,7 @@ see	VB	O	8	307
 evidence	NN	B-NP	9	307
 that	IN	B-SBAR	10	307
 all	DT	B-NP	11	307
-Cocom	NNP	I-NP	12	307
+Cocom	NNP	I-NP	12	307	ARG1
 members	NNS	I-NP	13	307	PRED
 are	VBP	O	14	307
 complying	VBG	O	15	307
@@ -9060,7 +9060,7 @@ services	NNS	I-NP	20	309
 COMMA	COMMA	O	21	309
 increasing	VBG	O	22	309	SUPPORT
 the	DT	B-NP	23	309
-board	NN	I-NP	24	309
+board	NN	I-NP	24	309	ARG1
 to	IN	B-PP	25	309	SUPPORT
 eight	CD	B-NP	26	309
 members	NNS	I-NP	27	309	PRED
@@ -9124,7 +9124,7 @@ failure	NN	I-NP	15	311
 
 Mayor	NNP	B-NP	0	312
 Lynn	NNP	I-NP	1	312
-Spruill	NNP	I-NP	2	312
+Spruill	NNP	I-NP	2	312	ARG1
 and	CC	O	3	312
 two	CD	B-NP	4	312
 members	NNS	I-NP	5	312	PRED
@@ -9166,7 +9166,7 @@ were	VBD	O	11	313
 between	IN	B-PP	12	313
 an	DT	B-NP	13	313
 Orthodox	NNP	B-NP	14	313
-Jew	NNP	I-NP	15	313
+Jew	NNP	I-NP	15	313	ARG1
 and	CC	O	16	313
 a	DT	B-NP	17	313
 member	NN	I-NP	18	313	PRED
@@ -9197,7 +9197,7 @@ Packwood	NNP	I-NP	16	314
 COMMA	COMMA	O	17	314
 the	DT	B-NP	18	314
 ranking	NN	I-NP	19	314
-GOP	NNP	I-NP	20	314
+GOP	NNP	I-NP	20	314	ARG1
 member	NN	I-NP	21	314	PRED
 of	IN	B-PP	22	314
 the	DT	B-NP	23	314
@@ -9239,7 +9239,7 @@ to	TO	O	3	316
 take	VB	O	4	316
 advantage	NN	B-NP	5	316
 of	IN	B-PP	6	316
-it	PRP	B-NP	7	316
+it	PRP	B-NP	7	316	ARG1
 COMMA	COMMA	O	8	316
 ''	''	O	9	316
 said	VBD	O	10	316
@@ -9353,7 +9353,7 @@ systems	NNS	I-NP	11	320
 that	WDT	B-NP	13	320
 run	VBP	O	14	320
 stock	NN	B-NP	15	320
-exchanges	NNS	I-NP	16	320
+exchanges	NNS	I-NP	16	320	ARG1
 COMMA	COMMA	O	17	320
 networks	NNS	B-NP	18	320	PRED
 of	IN	B-PP	19	320
@@ -9467,7 +9467,7 @@ number	NN	I-NP	25	324	PRED
 of	IN	B-PP	26	324
 U.S.	NNP	B-NP	27	324
 computer	NN	I-NP	28	324
-companies	NNS	I-NP	29	324
+companies	NNS	I-NP	29	324	ARG1
 .	.	O	30	324
 
 In	IN	B-PP	0	325
@@ -9485,7 +9485,7 @@ alleged	VBD	O	11	325
 that	IN	B-SBAR	12	325
 a	DT	B-NP	13	325
 ``	``	I-NP	14	325
-disproportionate	JJ	I-NP	15	325
+disproportionate	JJ	I-NP	15	325	ARG1
 number	NN	I-NP	16	325	PRED
 ''	''	O	17	325
 of	IN	B-PP	18	325
@@ -9523,8 +9523,8 @@ increase	VB	O	19	326
 the	DT	B-NP	20	326
 number	NN	I-NP	21	326	PRED
 of	IN	B-PP	22	326
-acres	NNS	B-NP	23	326
-farmers	NNS	B-NP	24	326
+acres	NNS	B-NP	23	326	ARG1
+farmers	NNS	B-NP	24	326	ARG1
 can	MD	O	25	326
 plant	VB	O	26	326
 in	IN	B-PP	27	326
@@ -9783,7 +9783,7 @@ COMMA	COMMA	O	44	333
 manager	NN	B-NP	45	333
 of	IN	B-PP	46	333
 crude	JJ	B-NP	47	333
-oil	NN	I-NP	48	333	ARG1
+oil	NN	I-NP	48	333
 with	IN	B-PP	49	333
 Calgary	NNP	B-NP	50	333
 's	POS	B-NP	51	333
@@ -9846,7 +9846,7 @@ COMMA	COMMA	O	44	334
 manager	NN	B-NP	45	334
 of	IN	B-PP	46	334
 crude	JJ	B-NP	47	334
-oil	NN	I-NP	48	334	ARG1
+oil	NN	I-NP	48	334
 with	IN	B-PP	49	334
 Calgary	NNP	B-NP	50	334
 's	POS	B-NP	51	334
@@ -9899,12 +9899,12 @@ COMMA	COMMA	I-NP	8	336
 though	IN	I-NP	9	336
 revenue-losing	VBG	I-NP	10	336
 COMMA	COMMA	I-NP	11	336
-provisions	NNS	I-NP	12	336
+provisions	NNS	I-NP	12	336	ARG1
 COMMA	COMMA	O	13	336
 a	DT	B-NP	14	336
 number	NN	I-NP	15	336	PRED
 of	IN	B-PP	16	336
-which	WDT	B-NP	17	336
+which	WDT	B-NP	17	336	ARG1
 are	VBP	O	18	336
 included	VBN	O	19	336
 in	IN	B-PP	20	336
@@ -10070,12 +10070,12 @@ spokesman	NN	I-NP	1	342
 for	IN	B-PP	2	342
 the	DT	B-NP	3	342
 U.S.	NNP	B-NP	4	342
-Attorney	NNP	I-NP	5	342
+Attorney	NNP	I-NP	5	342	ARG1
 's	POS	B-NP	6	342
 office	NN	I-NP	7	342	PRED
 said	VBD	O	8	342
 extradition	NN	B-NP	9	342
-proceedings	NNS	I-NP	10	342
+proceedings	NNS	I-NP	10	342	ARG1
 are	VBP	O	11	342
 ``	``	O	12	342
 just	RB	B-ADVP	13	342
@@ -10141,7 +10141,7 @@ City	NNP	B-NP	0	344
 Federal	NNP	I-NP	1	344
 operates	VBZ	O	2	344	SUPPORT
 105	CD	B-NP	3	344
-banking	NN	I-NP	4	344
+banking	NN	I-NP	4	344	ARG1
 offices	NNS	I-NP	5	344	PRED
 in	IN	B-PP	6	344
 New	NNP	B-NP	7	344
@@ -10175,7 +10175,7 @@ Inc.	NNP	I-NP	21	345
 to	IN	B-PP	22	345
 the	DT	B-NP	23	345
 U.S.	NNP	B-NP	24	345
-Attorney	NNP	I-NP	25	345
+Attorney	NNP	I-NP	25	345	ARG1
 's	POS	B-NP	26	345
 office	NN	I-NP	27	345	PRED
 in	IN	B-PP	28	345
@@ -10196,12 +10196,12 @@ FDA	NNP	I-NP	10	346
 and	CC	O	11	346
 the	DT	B-NP	12	346
 Inspector	NNP	B-NP	13	346
-General	NNP	I-NP	14	346
+General	NNP	I-NP	14	346	ARG1
 's	POS	B-NP	15	346
 office	NN	I-NP	16	346	PRED
 of	IN	B-PP	17	346
 the	DT	B-NP	18	346
-Health	NNP	B-NP	19	346
+Health	NNP	B-NP	19	346	ARG1
 and	CC	O	20	346
 Human	NNP	B-NP	21	346
 Services	NNP	I-NP	22	346
@@ -10297,7 +10297,7 @@ by	IN	B-PP	23	348
 its	PRP$	B-NP	24	348	ARG1
 owner	NN	I-NP	25	348	PRED
 COMMA	COMMA	O	26	348
-Campeau	NNP	B-NP	27	348
+Campeau	NNP	B-NP	27	348	ARG1
 Corp	NNP	I-NP	28	348
 .	.	O	29	348
 
@@ -10310,11 +10310,11 @@ CNN	NNP	B-NP	5	349
 's	POS	B-NP	6	349
 distributors	NNS	I-NP	7	349
 and	CC	I-NP	8	349
-part	JJ	I-NP	9	349
+part	JJ	I-NP	9	349	ARG1
 owners	NNS	I-NP	10	349	PRED
 --	:	O	11	349
 like	VBP	O	12	349
-things	NNS	B-NP	13	349
+things	NNS	B-NP	13	349	ARG1
 just	RB	B-ADVP	14	349
 the	DT	B-NP	15	349
 way	NN	I-NP	16	349
@@ -10324,10 +10324,10 @@ are	VBP	O	18	349
 
 The	DT	B-NP	0	350
 franchisees	NNS	I-NP	1	350	ARG1
-COMMA	COMMA	O	2	350
+COMMA	COMMA	O	2	350	ARG1
 owners	NNS	B-NP	3	350	PRED
 or	CC	O	4	350
-operators	NNS	B-NP	5	350
+operators	NNS	B-NP	5	350	ARG1
 of	IN	B-PP	6	350
 1COMMA000	CD	B-NP	7	350
 of	IN	B-PP	8	350
@@ -10393,7 +10393,7 @@ being	VBN	O	12	351
 heralded	VBN	O	13	351
 as	IN	B-SBAR	14	351
 a	DT	B-NP	15	351
-boon	NN	I-NP	16	351
+boon	NN	I-NP	16	351	ARG1
 for	IN	B-PP	17	351
 owners	NNS	B-NP	18	351	PRED
 of	IN	B-PP	19	351
@@ -10449,7 +10449,7 @@ a	DT	B-NP	2	354
 loophole	NN	I-NP	3	354
 regarding	VBG	O	4	354
 employee	NN	B-NP	5	354
-stock	NN	I-NP	6	354
+stock	NN	I-NP	6	354	ARG1
 ownership	NN	I-NP	7	354	PRED
 plans	NNS	I-NP	8	354
 COMMA	COMMA	O	9	354
@@ -10475,7 +10475,7 @@ At	IN	B-PP	0	355
 USA	NNP	B-NP	1	355
 Today	NNP	I-NP	2	355
 COMMA	COMMA	O	3	355
-ad	NN	B-NP	4	355
+ad	NN	B-NP	4	355	ARG1
 pages	NNS	I-NP	5	355	PRED
 totaled	VBD	O	6	355
 785	CD	B-NP	7	355
@@ -10510,11 +10510,11 @@ Today	NNP	I-NP	2	356
 's	POS	B-NP	3	356
 total	JJ	I-NP	4	356
 paid	VBN	O	5	356
-ad	NN	B-NP	6	356
+ad	NN	B-NP	6	356	ARG1
 pages	NNS	I-NP	7	356	PRED
 for	IN	B-PP	8	356
 the	DT	B-NP	9	356
-year	NN	I-NP	10	356
+year	NN	I-NP	10	356	ARG1
 to	IN	B-PP	11	356
 date	NN	B-NP	12	356
 totaled	VBD	O	13	356
@@ -10565,7 +10565,7 @@ income	NN	I-NP	12	357
 COMMA	COMMA	O	13	357
 as	IN	O	14	357
 total	JJ	B-NP	15	357
-ad	NN	I-NP	16	357
+ad	NN	I-NP	16	357	ARG1
 pages	NNS	I-NP	17	357	PRED
 dropped	VBD	O	18	357
 at	IN	B-PP	19	357
@@ -10618,7 +10618,7 @@ in	IN	B-PP	24	358
 a	DT	B-NP	27	358
 full	JJ	I-NP	28	358
 COMMA	COMMA	I-NP	29	358
-four-color	NN	I-NP	30	358
+four-color	NN	I-NP	30	358	ARG1
 page	NN	I-NP	31	358	PRED
 in	IN	B-PP	32	358
 the	DT	B-NP	33	358
@@ -10647,7 +10647,7 @@ company	NN	I-NP	14	359
 has	VBZ	O	15	359
 sold	VBN	O	16	359
 this	DT	B-NP	17	359
-year	NN	I-NP	18	359
+year	NN	I-NP	18	359	ARG1
 as	IN	B-SBAR	19	359
 part	NN	B-NP	20	359	PRED
 of	IN	B-PP	21	359
@@ -10659,9 +10659,9 @@ The	DT	B-NP	0	360
 maker	NN	I-NP	1	360
 of	IN	B-PP	2	360
 scientific	JJ	B-NP	3	360
-instruments	NNS	I-NP	4	360
+instruments	NNS	I-NP	4	360	ARG1
 and	CC	O	5	360
-laser	NN	B-NP	6	360
+laser	NN	B-NP	6	360	ARG1
 parts	NNS	I-NP	7	360	PRED
 said	VBD	O	8	360
 orders	NNS	B-NP	9	360	ARG1
@@ -10779,12 +10779,12 @@ other	JJ	I-NP	15	363
 approvals	NNS	I-NP	16	363
 required	VBN	O	17	363
 for	IN	B-PP	18	363
-development	NN	B-NP	19	363
+development	NN	B-NP	19	363	ARG1
 COMMA	COMMA	O	20	363
 and	CC	B-CONJP	21	363
 part	NN	B-NP	22	363	PRED
 of	IN	B-PP	23	363
-Kaufman	NNP	B-NP	24	363
+Kaufman	NNP	B-NP	24	363	ARG1
 &	CC	I-NP	25	363
 Broad	NNP	I-NP	26	363
 's	POS	B-NP	27	363
@@ -11165,7 +11165,7 @@ may	MD	O	11	375
 join	VB	O	12	375
 the	DT	B-NP	13	375
 Ferranti	NNP	I-NP	14	375
-fight	NN	I-NP	15	375
+fight	NN	I-NP	15	375	ARG1
 COMMA	COMMA	O	16	375
 as	IN	B-SBAR	17	375
 part	NN	B-NP	18	375	PRED
@@ -11223,7 +11223,7 @@ claim	NN	I-NP	9	377
 that	IN	B-SBAR	10	377
 the	DT	B-NP	11	377
 capital-gains	NNS	I-NP	12	377
-cut	NN	I-NP	13	377
+cut	NN	I-NP	13	377	ARG1
 was	VBD	O	14	377
 part	NN	B-NP	15	377	PRED
 of	IN	B-PP	16	377
@@ -11254,9 +11254,9 @@ X	NN	B-NP	7	378
 percent	NN	I-NP	8	378
 of	IN	B-PP	9	378
 this	DT	B-NP	10	378
-product	NN	I-NP	11	378
+product	NN	I-NP	11	378	ARG1
 and	CC	O	12	378
-Y	NN	B-NP	13	378
+Y	NN	B-NP	13	378	ARG1
 percent	NN	I-NP	14	378	PRED
 of	IN	B-PP	15	378
 that	DT	B-NP	16	378
@@ -11319,7 +11319,7 @@ one	CD	B-NP	11	380
 to	TO	I-NP	12	380
 three	CD	I-NP	13	380
 percentage	NN	I-NP	14	380	PRED
-points	NNS	I-NP	15	380	SUPPORT
+points	NNS	I-NP	15	380	SUPPORT	ARG1
 ''	''	O	16	380
 as	IN	B-SBAR	17	380
 a	DT	B-NP	18	380
@@ -11507,7 +11507,7 @@ about	RB	B-ADVP	4	386
 47	CD	B-NP	5	386
 %	NN	I-NP	6	386
 in	IN	B-PP	7	386
-wheat-growing	NN	B-NP	8	386
+wheat-growing	NN	B-NP	8	386	ARG1
 portions	NNS	I-NP	9	386	PRED
 of	IN	B-PP	10	386
 Kansas	NNP	B-NP	11	386	ARG1
@@ -11627,7 +11627,7 @@ for	IN	O	3	390
 instance	NN	B-NP	4	390
 COMMA	COMMA	O	5	390
 holds	VBZ	O	6	390	SUPPORT
-cash	NN	B-NP	7	390
+cash	NN	B-NP	7	390	ARG1
 positions	NNS	I-NP	8	390	PRED
 well	RB	B-ADVP	9	390
 above	IN	B-PP	10	390
@@ -11683,7 +11683,7 @@ than	IN	B-NP	9	392
 of	IN	B-PP	12	392
 the	DT	B-NP	13	392
 total	JJ	I-NP	14	392
-cash	NN	I-NP	15	392
+cash	NN	I-NP	15	392	ARG1
 position	NN	I-NP	16	392	PRED
 of	IN	B-PP	17	392
 about	RB	B-ADVP	18	392
@@ -11735,7 +11735,7 @@ S.p	NNP	I-NP	8	394
 A.	NNP	I-NP	10	394
 to	TO	O	11	394
 liquidate	VB	O	12	394
-futures	NNS	B-NP	13	394
+futures	NNS	B-NP	13	394	ARG1
 positions	NNS	I-NP	14	394	PRED
 equal	JJ	B-ADJP	15	394
 to	IN	B-PP	16	394
@@ -11772,7 +11772,7 @@ short	JJ	I-NP	21	395
 positions	NNS	I-NP	22	395	PRED
 had	VBD	O	23	395
 shown	VBN	O	24	395
-losses	NNS	B-NP	25	395
+losses	NNS	B-NP	25	395	ARG1
 of	IN	B-PP	26	395
 10	CD	B-NP	27	395
 %	NN	I-NP	28	395
@@ -11984,7 +11984,7 @@ the	DT	B-NP	1	401
 third	JJ	I-NP	2	401
 quarter	NN	I-NP	3	401	PRED
 of	IN	B-PP	4	401
-1988	CD	B-NP	5	401
+1988	CD	B-NP	5	401	ARG1
 COMMA	COMMA	O	6	401
 Merck	NNP	B-NP	7	401
 earned	VBD	O	8	401
@@ -12006,7 +12006,7 @@ year	NN	I-NP	2	402
 third	JJ	I-NP	4	402
 quarter	NN	I-NP	5	402	PRED
 COMMA	COMMA	O	6	402
-Lilly	NNP	B-NP	7	402
+Lilly	NNP	B-NP	7	402	ARG1
 earned	VBD	O	8	402
 $	$	O	9	402
 171.4	CD	B-NP	10	402
@@ -12050,7 +12050,7 @@ the	DT	B-NP	27	403
 third	JJ	I-NP	28	403
 quarter	NN	I-NP	29	403	PRED
 of	IN	B-PP	30	403
-1988	CD	B-NP	31	403
+1988	CD	B-NP	31	403	ARG1
 COMMA	COMMA	O	32	403
 was	VBD	O	33	403
 the	DT	B-NP	34	403
@@ -12060,7 +12060,7 @@ especially	RB	B-ADVP	37	403
 strong	JJ	O	38	403
 sales	NNS	B-NP	39	403
 of	IN	B-PP	40	403
-its	PRP$	B-NP	41	403
+its	PRP$	B-NP	41	403	ARG1
 Capoten	NNP	I-NP	42	403
 drug	NN	I-NP	43	403
 for	IN	B-PP	44	403
@@ -12155,7 +12155,7 @@ the	DT	B-NP	16	406
 first	JJ	I-NP	17	406
 quarter	NN	I-NP	18	406	PRED
 of	IN	B-PP	19	406
-1990	CD	B-NP	20	406
+1990	CD	B-NP	20	406	ARG1
 COMMA	COMMA	O	21	406
 but	CC	B-CONJP	22	406
 by	IN	O	23	406
@@ -12221,7 +12221,7 @@ the	DT	B-NP	1	408
 third	JJ	I-NP	2	408
 quarter	NN	I-NP	3	408	PRED
 of	IN	B-PP	4	408
-1987	CD	B-NP	5	408
+1987	CD	B-NP	5	408	ARG1
 COMMA	COMMA	O	6	408
 the	DT	B-NP	7	408
 economy	NN	I-NP	8	408
@@ -12326,7 +12326,7 @@ the	DT	B-NP	1	412
 third	JJ	I-NP	3	412
 quarter	NN	I-NP	4	412	PRED
 COMMA	COMMA	O	5	412
-Quantum	NNP	B-NP	6	412
+Quantum	NNP	B-NP	6	412	ARG1
 earned	VBD	O	7	412
 $	$	O	8	412
 99.8	CD	B-NP	9	412
@@ -12352,8 +12352,8 @@ COMMA	COMMA	O	2	413
 which	WDT	B-NP	3	413
 is	VBZ	O	4	413
 finalizing	VBG	O	5	413
-its	PRP$	B-NP	6	413
-steel-import	NN	I-NP	7	413
+its	PRP$	B-NP	6	413	ARG1
+steel-import	NN	I-NP	7	413	ARG1
 quotas	NNS	I-NP	8	413	PRED
 COMMA	COMMA	O	9	413
 is	VBZ	O	10	413
@@ -12469,7 +12469,7 @@ cut	NN	I-NP	8	416
 in	IN	B-PP	9	416
 Japan	NNP	B-NP	10	416
 's	POS	B-NP	11	416
-steel	NN	I-NP	12	416
+steel	NN	I-NP	12	416	ARG1
 quota	NN	I-NP	13	416	PRED
 COMMA	COMMA	O	14	416
 and	CC	O	15	416
@@ -12504,7 +12504,7 @@ have	VBP	O	12	417
 n't	RB	B-ADVP	13	417
 been	VBN	O	14	417
 filling	VBG	O	15	417
-their	PRP$	B-NP	16	417
+their	PRP$	B-NP	16	417	ARG1
 quotas	NNS	I-NP	17	417	PRED
 to	IN	B-PP	18	417
 the	DT	B-NP	19	417
@@ -12679,7 +12679,7 @@ said	VBD	O	6	424
 it	PRP	B-NP	7	424
 would	MD	O	8	424
 extend	VB	O	9	424
-steel	NN	B-NP	10	424
+steel	NN	B-NP	10	424	ARG1
 quotas	NNS	I-NP	11	424	PRED
 COMMA	COMMA	O	12	424
 known	VBN	O	13	424
@@ -12788,7 +12788,7 @@ the	DT	B-NP	26	427
 strength	NN	I-NP	27	427
 of	IN	B-PP	28	427
 new	JJ	B-NP	29	427
-orders	NNS	I-NP	30	427	ARG1
+orders	NNS	I-NP	30	427
 .	.	O	31	427
 
 The	DT	B-NP	0	428
@@ -12837,7 +12837,7 @@ n't	RB	B-ADVP	26	429
 expect	VB	O	27	429
 a	DT	B-NP	28	429
 price	NN	I-NP	29	429
-increase	NN	I-NP	30	429
+increase	NN	I-NP	30	429	ARG1
 for	IN	B-PP	31	429
 the	DT	B-NP	32	429
 rest	NN	I-NP	33	429	PRED
@@ -13108,7 +13108,7 @@ computer	NN	I-NP	13	437
 market	NN	I-NP	14	437
 .	.	O	15	437
 
-Boeing	NNP	B-NP	0	438
+Boeing	NNP	B-NP	0	438	ARG1
 's	POS	B-NP	1	438
 shares	NNS	I-NP	2	438	PRED
 fell	VBD	O	3	438
@@ -13160,7 +13160,7 @@ of	IN	B-PP	7	440
 the	DT	B-NP	8	440
 meeting	NN	I-NP	9	440
 COMMA	COMMA	O	10	440
-Quantum	NNP	B-NP	11	440
+Quantum	NNP	B-NP	11	440	ARG1
 's	POS	B-NP	12	440
 shares	NNS	I-NP	13	440	PRED
 slid	VBD	O	14	440
@@ -13245,7 +13245,7 @@ allowance	NN	I-NP	8	443
 from	IN	B-PP	9	443
 the	DT	O	10	443
 1.43	CD	B-NP	11	443
-%	NN	I-NP	12	443
+%	NN	I-NP	12	443	ARG1
 share	NN	B-NP	13	443	PRED
 it	PRP	B-NP	14	443
 has	VBZ	O	15	443
@@ -13336,7 +13336,7 @@ shelves	NNS	I-NP	4	446
 in	IN	B-PP	5	446
 1987	CD	B-NP	6	446
 COMMA	COMMA	O	7	446
-P&G	NNP	B-NP	8	446
+P&G	NNP	B-NP	8	446	ARG1
 's	POS	B-NP	9	446
 share	NN	I-NP	10	446	PRED
 of	IN	B-PP	11	446
@@ -13362,7 +13362,7 @@ of	IN	B-PP	3	447
 Lemon	NNP	B-NP	4	447
 Cheer	NNP	I-NP	5	447
 COMMA	COMMA	O	6	447
-P&G	NNP	B-NP	7	447
+P&G	NNP	B-NP	7	447	ARG1
 's	POS	B-NP	8	447
 share	NN	I-NP	9	447	PRED
 is	VBZ	O	10	447
@@ -13440,7 +13440,7 @@ warrants	NNS	B-NP	16	450	ARG1
 on	IN	B-PP	17	450
 shares	NNS	B-NP	18	450	PRED
 of	IN	B-PP	19	450
-Hong	NNP	B-NP	20	450
+Hong	NNP	B-NP	20	450	ARG1
 Kong	NNP	I-NP	21	450
 Telecommunications	NNP	I-NP	22	450
 Ltd	NNP	I-NP	23	450
@@ -13460,7 +13460,7 @@ warrants	NNS	B-NP	10	451	ARG1
 for	IN	B-PP	11	451
 shares	NNS	B-NP	12	451	PRED
 of	IN	B-PP	13	451
-Hongkong	NNP	B-NP	14	451
+Hongkong	NNP	B-NP	14	451	ARG1
 &	NNP	I-NP	15	451
 Shanghai	NNP	I-NP	16	451
 Banking	NNP	I-NP	17	451
@@ -13478,11 +13478,11 @@ past	NN	I-NP	7	452
 issued	VBN	O	8	452
 warrants	NNS	B-NP	9	452
 on	IN	B-PP	10	452
-their	PRP$	B-NP	11	452
+their	PRP$	B-NP	11	452	ARG1
 own	JJ	I-NP	12	452
 shares	NNS	I-NP	13	452	PRED
 COMMA	COMMA	O	14	452
-Salomon	NNP	B-NP	15	452
+Salomon	NNP	B-NP	15	452	ARG1
 's	POS	B-NP	16	452
 warrants	NNS	I-NP	17	452
 are	VBP	O	18	452
@@ -13507,11 +13507,11 @@ the	DT	B-NP	5	453
 warrants	NNS	I-NP	6	453
 by	IN	B-PP	7	453
 buying	VBG	O	8	453
-sufficient	JJ	B-NP	9	453
+sufficient	JJ	B-NP	9	453	ARG1
 shares	NNS	I-NP	10	453	PRED
 COMMA	COMMA	I-NP	11	453
 or	CC	I-NP	12	453
-options	NNS	I-NP	13	453
+options	NNS	I-NP	13	453	ARG1
 to	TO	O	14	453
 purchase	VB	O	15	453
 shares	NNS	B-NP	16	453
@@ -13582,7 +13582,7 @@ offer	VB	O	28	455
 about	RB	B-ADVP	29	455
 10	CD	B-NP	30	455
 million	CD	I-NP	31	455
-common	JJ	B-ADJP	32	455
+common	JJ	B-ADJP	32	455	ARG1
 shares	NNS	B-NP	33	455	PRED
 .	.	O	34	455
 
@@ -13595,9 +13595,9 @@ to	TO	O	5	456
 offer	VB	O	6	456
 an	DT	B-NP	7	456
 undetermined	JJ	I-NP	8	456
-number	NN	I-NP	9	456
+number	NN	I-NP	9	456	ARG1
 of	IN	B-PP	10	456
-common	JJ	B-NP	11	456
+common	JJ	B-NP	11	456	ARG1
 shares	NNS	I-NP	12	456	PRED
 in	IN	B-PP	13	456
 exchange	NN	B-NP	14	456	ARG1
@@ -13677,7 +13677,7 @@ has	VBZ	O	2	459	SUPPORT
 approximately	RB	B-ADVP	3	459
 11.1	CD	B-NP	4	459
 million	CD	I-NP	5	459
-common	JJ	B-ADJP	6	459
+common	JJ	B-ADJP	6	459	ARG1
 shares	NNS	B-NP	7	459	PRED
 outstanding	JJ	B-ADJP	8	459
 .	.	O	9	459
@@ -13706,7 +13706,7 @@ COMMA	COMMA	O	20	460
 chairman	NN	B-NP	21	460
 of	IN	B-PP	22	460
 Hewlett-Packard	NNP	B-NP	23	460
-Co.	NNP	I-NP	24	460
+Co.	NNP	I-NP	24	460	ARG1
 COMMA	COMMA	O	25	460
 whose	WP$	O	26	460	ARG1
 shares	NNS	B-NP	27	460	PRED
@@ -13794,7 +13794,7 @@ depositary	NN	I-NP	19	462
 shares	NNS	I-NP	20	462
 COMMA	COMMA	O	21	462
 representing	VBG	O	22	462
-preferred	VBN	O	23	462
+preferred	VBN	O	23	462	ARG1
 shares	NNS	B-NP	24	462	PRED
 COMMA	COMMA	O	25	462
 with	IN	B-PP	26	462
@@ -13837,7 +13837,7 @@ COMMA	COMMA	O	3	465
 offering	NN	B-NP	4	465
 of	IN	B-PP	5	465
 1COMMA250COMMA000	CD	B-NP	6	465
-common	JJ	I-NP	7	465
+common	JJ	I-NP	7	465	ARG1
 shares	NNS	I-NP	8	465	PRED
 COMMA	COMMA	O	9	465
 via	IN	B-PP	10	465
@@ -13860,7 +13860,7 @@ offering	NN	I-NP	9	466
 of	IN	B-PP	10	466
 five	CD	B-NP	11	466
 million	CD	I-NP	12	466
-common	JJ	B-ADJP	13	466
+common	JJ	B-ADJP	13	466	ARG1
 shares	NNS	B-NP	14	466	PRED
 COMMA	COMMA	O	15	466
 via	IN	B-PP	16	466
@@ -13898,7 +13898,7 @@ offering	NN	B-NP	6	467
 of	IN	B-PP	7	467
 1.5	CD	B-NP	8	467
 million	CD	I-NP	9	467
-common	JJ	B-ADJP	10	467
+common	JJ	B-ADJP	10	467	ARG1
 shares	NNS	B-NP	11	467	PRED
 COMMA	COMMA	O	12	467
 of	IN	B-PP	13	467
@@ -14047,12 +14047,12 @@ practice	NN	I-NP	29	471
 of	IN	B-PP	30	471
 companies	NNS	B-NP	31	471
 issuing	VBG	O	32	471
-voting	NN	B-NP	33	471
+voting	NN	B-NP	33	471	ARG1
 preferred	VBN	O	34	471
 shares	NNS	B-NP	35	471	PRED
 to	IN	B-PP	36	471
 management-controlled	VBN	O	37	471
-trusts	NNS	B-NP	38	471
+trusts	NNS	B-NP	38	471	ARG1
 to	TO	O	39	471
 dilute	VB	O	40	471
 voting	NN	B-NP	41	471
@@ -14064,11 +14064,11 @@ stockholders	NNS	I-NP	45	471
 
 14	CD	B-NP	0	472
 million	CD	I-NP	1	472
-common	JJ	B-ADJP	2	472
+common	JJ	B-ADJP	2	472	ARG1
 shares	NNS	B-NP	3	472	PRED
 COMMA	COMMA	O	4	472
 via	IN	B-PP	5	472
-Goldman	NNP	B-NP	6	472
+Goldman	NNP	B-NP	6	472	ARG1
 COMMA	COMMA	O	7	472
 Sachs	NNP	B-NP	8	472
 &	NNP	I-NP	9	472
@@ -14077,7 +14077,7 @@ Co	NNP	I-NP	10	472
 
 1.3	CD	B-NP	0	473
 million	CD	I-NP	1	473
-common	JJ	B-ADJP	2	473
+common	JJ	B-ADJP	2	473	ARG1
 shares	NNS	B-NP	3	473	PRED
 COMMA	COMMA	O	4	473
 via	IN	B-PP	5	473
@@ -14087,7 +14087,7 @@ Lynch	NNP	I-NP	7	473
 
 1.5	CD	B-NP	0	474
 million	CD	I-NP	1	474
-common	JJ	B-ADJP	2	474
+common	JJ	B-ADJP	2	474	ARG1
 shares	NNS	B-NP	3	474	PRED
 COMMA	COMMA	O	4	474
 via	IN	B-PP	5	474
@@ -14097,7 +14097,7 @@ Inc	NNP	I-NP	7	474
 
 Two	CD	B-NP	0	475
 million	CD	I-NP	1	475
-common	JJ	B-ADJP	2	475
+common	JJ	B-ADJP	2	475	ARG1
 shares	NNS	B-NP	3	475	PRED
 COMMA	COMMA	O	4	475
 via	IN	B-PP	5	475
@@ -14118,7 +14118,7 @@ Sachs	NNP	I-NP	6	476
 
 2.4	CD	B-NP	0	477
 million	CD	I-NP	1	477
-common	JJ	B-ADJP	2	477
+common	JJ	B-ADJP	2	477	ARG1
 shares	NNS	B-NP	3	477	PRED
 COMMA	COMMA	O	4	477
 via	IN	B-PP	5	477
@@ -14141,7 +14141,7 @@ bidding	NN	I-NP	10	478
 
 Four	CD	B-NP	0	479
 million	CD	I-NP	1	479
-common	JJ	B-ADJP	2	479
+common	JJ	B-ADJP	2	479	ARG1
 shares	NNS	B-NP	3	479	PRED
 COMMA	COMMA	O	4	479
 via	IN	B-PP	5	479
@@ -14174,7 +14174,7 @@ it	PRP	B-NP	20	480
 is	VBZ	O	21	480
 pegged	VBN	O	22	480
 to	IN	B-PP	23	480
-Zenith	NNP	B-NP	24	480
+Zenith	NNP	B-NP	24	480	ARG1
 's	POS	B-NP	25	480
 share	NN	I-NP	26	480	PRED
 and	CC	I-NP	27	480
@@ -14213,7 +14213,7 @@ each	DT	B-NP	16	482
 COMMA	COMMA	O	17	482
 up	RB	B-PP	18	482
 from	IN	B-PP	19	482
-its	PRP$	O	20	482
+its	PRP$	O	20	482	ARG1
 $	$	O	21	482
 15	CD	B-NP	22	482
 offering	NN	B-NP	23	482
@@ -14237,7 +14237,7 @@ $	$	O	39	482
 COMMA	COMMA	O	41	482
 up	RB	B-PP	42	482
 from	IN	B-PP	43	482
-its	PRP$	O	44	482
+its	PRP$	O	44	482	ARG1
 $	$	O	45	482
 12	CD	B-NP	46	482
 offering	NN	B-NP	47	482
@@ -14264,15 +14264,15 @@ each	DT	B-NP	16	483
 COMMA	COMMA	O	17	483
 up	RB	B-PP	18	483
 from	IN	B-PP	19	483
-its	PRP$	O	20	483
+its	PRP$	O	20	483	ARG1
 $	$	O	21	483
 15	CD	B-NP	22	483
 offering	NN	B-NP	23	483
-price	NN	I-NP	24	483
+price	NN	I-NP	24	483	ARG1
 and	CC	O	25	483
 shares	NNS	B-NP	26	483	PRED
 of	IN	B-PP	27	483
-Employee	NNP	B-NP	28	483
+Employee	NNP	B-NP	28	483	ARG1
 Benefit	NNP	I-NP	29	483
 Plans	NNP	I-NP	30	483
 Inc.	NNP	I-NP	31	483
@@ -14288,7 +14288,7 @@ $	$	O	39	483
 COMMA	COMMA	O	41	483
 up	RB	B-PP	42	483
 from	IN	B-PP	43	483
-its	PRP$	O	44	483
+its	PRP$	O	44	483	ARG1
 $	$	O	45	483
 12	CD	B-NP	46	483
 offering	NN	B-NP	47	483
@@ -14307,7 +14307,7 @@ of	IN	B-PP	8	484
 the	DT	B-NP	9	484
 shares	NNS	I-NP	10	484	PRED
 in	IN	B-PP	11	484
-Jaguar	NNP	B-NP	12	484
+Jaguar	NNP	B-NP	12	484	ARG1
 PLC	NNP	I-NP	13	484	ARG1
 .	.	O	14	484
 
@@ -14400,7 +14400,7 @@ points	NNS	I-NP	20	487
 --	:	O	21	487
 most	DT	B-NP	22	487
 of	IN	B-PP	23	487
-it	PRP	B-NP	24	487
+it	PRP	B-NP	24	487	ARG1
 in	IN	B-PP	25	487
 the	DT	B-NP	26	487
 final	JJ	I-NP	27	487
@@ -14425,7 +14425,7 @@ real	JJ	I-NP	4	488
 thrust	NN	I-NP	5	488
 on	IN	B-PP	6	488
 our	PRP$	B-NP	7	488
-utility	NN	I-NP	8	488
+utility	NN	I-NP	8	488	ARG1
 side	NN	I-NP	9	488	PRED
 COMMA	COMMA	O	10	488
 ''	''	O	11	488
@@ -14490,7 +14490,7 @@ a	DT	B-NP	12	490
 recent	JJ	I-NP	13	490
 spate	NN	I-NP	14	490	PRED
 of	IN	B-PP	15	490
-airline	NN	B-NP	16	490
+airline	NN	B-NP	16	490	ARG1
 takeovers	NNS	I-NP	17	490	ARG1
 .	.	O	18	490
 
@@ -14509,7 +14509,7 @@ and	CC	B-CONJP	11	491
 Canadian	NNP	B-NP	12	491
 Utilities	NNP	I-NP	13	491
 '	POS	B-NP	14	491
-equity	NN	I-NP	15	491
+equity	NN	I-NP	15	491	ARG1
 stake	NN	I-NP	16	491	PRED
 would	MD	O	17	491
 be	VB	O	18	491
@@ -14608,7 +14608,7 @@ COMMA	COMMA	O	14	494
 previously	RB	O	15	494
 proposed	VBD	O	16	494
 combining	VBG	O	17	494
-its	PRP$	O	18	494
+its	PRP$	O	18	494	ARG1
 100	CD	B-NP	19	494
 %	NN	I-NP	20	494
 stake	NN	B-NP	21	494	PRED
@@ -14663,7 +14663,7 @@ Lawrence	NNP	I-NP	24	495
 Cement	NNP	I-NP	25	495
 Inc.	NNP	I-NP	26	495
 and	CC	O	27	495
-its	PRP$	O	28	495
+its	PRP$	O	28	495	ARG1
 60	CD	B-NP	29	495
 %	NN	I-NP	30	495
 stake	NN	B-NP	31	495	PRED
@@ -14851,7 +14851,7 @@ States	NNS	I-NP	5	502	PRED
 At	IN	B-PP	0	503
 the	DT	B-NP	1	503
 same	JJ	I-NP	2	503
-time	NN	I-NP	3	503
+time	NN	I-NP	3	503	ARG1
 COMMA	COMMA	O	4	503
 several	DT	B-NP	5	503
 states	NNS	I-NP	6	503	PRED
@@ -14872,7 +14872,7 @@ Six	CD	B-NP	0	504
 of	IN	B-PP	1	504
 the	DT	B-NP	2	504
 12	CD	I-NP	3	504
-midwestern	JJ	I-NP	4	504
+midwestern	JJ	I-NP	4	504	ARG1
 states	NNS	I-NP	5	504	PRED
 have	VBP	O	6	504
 been	VBN	O	7	504
@@ -14918,7 +14918,7 @@ takeover	NN	I-NP	19	505
 would	MD	O	20	505
 succeed	VB	O	21	505
 and	CC	B-CONJP	22	505
-UAL	NNP	B-NP	23	505
+UAL	NNP	B-NP	23	505	ARG1
 stock	NN	I-NP	24	505	PRED
 would	MD	O	25	505
 rise	VB	O	26	505
@@ -14959,7 +14959,7 @@ drug	NN	B-NP	8	507	ARG1
 stocks	NNS	I-NP	9	507	PRED
 like	IN	B-PP	10	507
 Eli	NNP	B-NP	11	507
-Lilly	NNP	I-NP	12	507
+Lilly	NNP	I-NP	12	507	ARG1
 COMMA	COMMA	O	13	507
 Pfizer	NNP	B-NP	14	507
 and	CC	O	15	507
@@ -15007,12 +15007,12 @@ the	DT	B-NP	26	508
 strength	NN	I-NP	27	508
 of	IN	B-PP	28	508
 new	JJ	B-NP	29	508
-orders	NNS	I-NP	30	508	ARG1
+orders	NNS	I-NP	30	508
 .	.	O	31	508
 
 Diamond	NNP	B-NP	0	509
 Shamrock	NNP	I-NP	1	509
-Offshore	NNP	I-NP	2	509
+Offshore	NNP	I-NP	2	509	ARG1
 's	POS	B-NP	3	509
 stock	NN	I-NP	4	509	PRED
 rose	VBD	O	5	509
@@ -15127,11 +15127,11 @@ allow	VBP	O	2	513
 shareholders	NNS	B-NP	3	513
 to	TO	O	4	513
 purchase	VB	O	5	513
-Quest	NNP	B-NP	6	513
+Quest	NNP	B-NP	6	513	ARG1
 stock	NN	I-NP	7	513	PRED
 at	IN	B-PP	8	513
 a	DT	B-NP	9	513
-discount	NN	I-NP	10	513
+discount	NN	I-NP	10	513	ARG1
 if	IN	O	11	513
 any	DT	B-NP	12	513
 person	NN	I-NP	13	513
@@ -15360,7 +15360,7 @@ Close	VB	O	1	520
 a	DT	B-NP	2	520
 loophole	NN	I-NP	3	520
 regarding	VBG	O	4	520
-employee	NN	B-NP	5	520
+employee	NN	B-NP	5	520	ARG1
 stock	NN	I-NP	6	520	PRED
 ownership	NN	I-NP	7	520	SUPPORT
 plans	NNS	I-NP	8	520	SUPPORT	ARG1
@@ -15443,7 +15443,7 @@ its	PRP$	B-NP	18	522	ARG1
 stock	NN	I-NP	19	522	PRED
 portfolio	NN	I-NP	20	522	SUPPORT
 two	CD	B-NP	21	522
-years	NNS	I-NP	22	522
+years	NNS	I-NP	22	522	ARG1
 ago	RB	B-ADVP	23	522
 .	.	O	24	522
 
@@ -15470,7 +15470,7 @@ she	PRP	B-NP	19	523
 still	RB	B-ADVP	20	523
 owns	VBZ	O	21	523	SUPPORT
 some	DT	B-NP	22	523
-Texaco	NNP	I-NP	23	523
+Texaco	NNP	I-NP	23	523	ARG1
 stock	NN	I-NP	24	523	PRED
 .	.	O	25	523
 
@@ -15506,7 +15506,7 @@ companies	NNS	B-NP	12	525
 have	VBP	O	13	525
 kept	VBN	O	14	525	SUPPORT
 smaller	JJR	B-NP	15	525
-share	NN	I-NP	16	525
+share	NN	I-NP	16	525	ARG1
 stockpiles	NNS	I-NP	17	525	PRED
 on	IN	B-PP	18	525
 hand	NN	B-NP	19	525	ARG1
@@ -15535,7 +15535,7 @@ permit	VB	O	19	526
 pool	NN	B-NP	20	526
 halls	NNS	I-NP	21	526
 along	IN	B-PP	22	526
-Addison	NNP	B-NP	23	526
+Addison	NNP	B-NP	23	526	ARG1
 's	POS	B-NP	24	526
 main	JJ	I-NP	25	526
 street	NN	I-NP	26	526	PRED
@@ -15545,7 +15545,7 @@ Meanwhile	RB	O	0	527
 COMMA	COMMA	O	1	527
 analysts	NNS	B-NP	2	527
 said	VBD	O	3	527
-Pfizer	NNP	B-NP	4	527
+Pfizer	NNP	B-NP	4	527	ARG1
 's	POS	B-NP	5	527
 recent	JJ	B-ADJP	6	527
 string	NN	B-NP	7	527	PRED
@@ -15577,7 +15577,7 @@ COMMA	COMMA	O	3	528
 a	DT	B-NP	4	528
 string	NN	I-NP	5	528	PRED
 of	IN	B-PP	6	528
-cross-border	NN	B-NP	7	528
+cross-border	NN	B-NP	7	528	ARG1
 mergers	NNS	I-NP	8	528	ARG1
 and	CC	O	9	528
 joint	JJ	B-NP	10	528
@@ -15601,11 +15601,11 @@ Lantos	NNP	I-NP	4	529
 doth	VBZ	O	5	529
 protest	VBP	O	6	529
 that	IN	B-SBAR	7	529
-his	PRP$	B-NP	8	529
+his	PRP$	B-NP	8	529	ARG1
 subcommittee	NN	I-NP	9	529	PRED
 simply	RB	B-ADVP	10	529
 seeks	VBZ	O	11	529
-information	NN	B-NP	12	529
+information	NN	B-NP	12	529	ARG1
 for	IN	B-PP	13	529
 legislative	JJ	B-NP	14	529
 change	NN	I-NP	15	529
@@ -15668,7 +15668,7 @@ $	$	O	9	532
 53.4	CD	B-NP	10	532
 million	CD	I-NP	11	532
 limited	VBN	O	12	532
-partnership	NN	B-NP	13	532
+partnership	NN	B-NP	13	532	ARG1
 subsidiary	NN	I-NP	14	532	PRED
 to	TO	O	15	532
 buy	VB	O	16	532
@@ -15691,11 +15691,11 @@ its	PRP$	O	6	533	ARG1
 A.	NNP	B-NP	7	533
 Sulka	NNP	I-NP	8	533
 &	NNP	I-NP	9	533
-Co.	NNP	I-NP	10	533
+Co.	NNP	I-NP	10	533	ARG1
 subsidiary	NN	B-NP	11	533	PRED
 COMMA	COMMA	O	12	533
 a	DT	B-NP	13	533
-men	NNS	I-NP	14	533
+men	NNS	I-NP	14	533	ARG1
 's	POS	B-NP	15	533
 luxury	NN	I-NP	16	533
 haberdashery	NN	I-NP	17	533
@@ -15838,7 +15838,7 @@ possible	JJ	I-NP	32	537
 sale	NN	I-NP	33	537
 of	IN	B-PP	34	537
 other	JJ	B-NP	35	537
-subsidiaries	NNS	I-NP	36	537	ARG1
+subsidiaries	NNS	I-NP	36	537
 .	.	O	37	537
 
 Compaq	NNP	B-NP	0	538
@@ -15906,7 +15906,7 @@ Mr.	NNP	B-NP	0	540
 Amos	NNP	I-NP	1	540
 says	VBZ	O	2	540
 the	DT	B-NP	3	540
-Shaw-Crier	NNP	I-NP	4	540
+Shaw-Crier	NNP	I-NP	4	540	ARG1
 team	NN	I-NP	5	540	PRED
 will	MD	O	6	540
 probably	RB	B-ADVP	7	540
@@ -15979,7 +15979,7 @@ for	IN	B-PP	38	541
 the	DT	O	39	541
 Dallas	NNP	B-NP	40	541
 Cowboys	NNP	I-NP	41	541
-football	NN	B-NP	42	541
+football	NN	B-NP	42	541	ARG1
 team	NN	I-NP	43	541	PRED
 .	.	O	44	541
 
@@ -16167,7 +16167,7 @@ n't	RB	B-ADVP	3	548
 a	DT	B-NP	4	548
 lot	NN	I-NP	5	548
 of	IN	B-PP	6	548
-volume	NN	B-NP	7	548
+volume	NN	B-NP	7	548	ARG1
 because	IN	O	8	548
 it	EX	B-NP	9	548
 was	VBD	O	10	548
@@ -16204,7 +16204,7 @@ markets	NNS	B-NP	40	548	ARG1
 in	IN	B-PP	41	548
 thousands	NNS	B-NP	42	548	PRED
 of	IN	B-PP	43	548
-OTC	NNP	B-NP	44	548
+OTC	NNP	B-NP	44	548	ARG1
 issues	NNS	I-NP	45	548	ARG1
 .	.	O	46	548
 
@@ -16267,7 +16267,7 @@ Soviet	NNP	B-NP	1	551
 Union	NNP	I-NP	2	551
 reported	VBD	O	3	551
 that	IN	O	4	551
-thousands	NNS	B-NP	5	551
+thousands	NNS	B-NP	5	551	ARG1
 of	IN	B-PP	6	551
 tons	NNS	B-NP	7	551	PRED
 of	IN	B-PP	8	551
@@ -16373,7 +16373,7 @@ a	DT	O	30	553
 ``	``	O	31	553
 top	NN	B-NP	32	553	PRED
 of	IN	B-PP	33	553
-mind	NN	B-NP	34	553
+mind	NN	B-NP	34	553	ARG1
 ''	''	B-NP	35	553
 network	NN	I-NP	36	553
 .	.	O	37	553
@@ -16384,7 +16384,7 @@ the	DT	B-NP	2	554
 strike	NN	I-NP	3	554
 by	IN	B-PP	4	554
 55COMMA000	CD	B-NP	5	554
-Machinists	NNPS	I-NP	6	554
+Machinists	NNPS	I-NP	6	554	ARG1
 union	NN	I-NP	7	554	PRED
 members	NNS	I-NP	8	554	ARG1
 against	IN	B-PP	9	554
@@ -16503,7 +16503,7 @@ insensitivity	NN	I-NP	31	556
 ''	''	O	32	556
 toward	IN	B-PP	33	556
 union	NN	B-NP	34	556	PRED
-members	NNS	I-NP	35	556	ARG1
+members	NNS	I-NP	35	556
 .	.	O	36	556
 
 GM	NNP	B-NP	0	557
@@ -16526,7 +16526,7 @@ Therese	NNP	I-NP	16	557
 COMMA	COMMA	O	17	557
 Quebec	NNP	B-NP	18	557
 COMMA	COMMA	O	19	557
-company	NN	B-NP	20	557
+company	NN	B-NP	20	557	ARG1
 and	CC	I-NP	21	557
 union	NN	I-NP	22	557	PRED
 officials	NNS	I-NP	23	557
@@ -16534,7 +16534,7 @@ said	VBD	O	24	557
 .	.	O	25	557
 
 That	DT	B-NP	0	558
-announcement	NN	I-NP	1	558
+announcement	NN	I-NP	1	558	ARG1
 left	VBD	O	2	558
 union	NN	B-NP	3	558	PRED
 officials	NNS	I-NP	4	558
@@ -16637,7 +16637,7 @@ its	PRP$	O	12	562	ARG1
 50.1%-owned	VBN	O	13	562
 Canadian	NNP	B-NP	14	562
 Utilities	NNP	I-NP	15	562
-Ltd.	NNP	I-NP	16	562
+Ltd.	NNP	I-NP	16	562	ARG1
 unit	NN	B-NP	17	562	PRED
 is	VBZ	O	18	562
 reviewing	VBG	O	19	562
@@ -16744,7 +16744,7 @@ Information	NNP	B-NP	3	564
 International	NNP	I-NP	4	564
 said	VBD	O	5	564
 the	DT	B-NP	6	564
-lawsuit	NN	I-NP	7	564
+lawsuit	NN	I-NP	7	564	ARG1
 by	IN	B-PP	8	564
 two	CD	B-NP	9	564
 units	NNS	I-NP	10	564	PRED
@@ -16863,7 +16863,7 @@ management	NN	I-NP	24	566
 buy-out	NN	I-NP	25	566
 of	IN	B-PP	26	566
 the	DT	B-NP	27	566
-company	NN	I-NP	28	566
+company	NN	I-NP	28	566	ARG1
 COMMA	COMMA	O	29	566
 but	CC	O	30	566
 was	VBD	O	31	566
@@ -16889,7 +16889,7 @@ Warner-Lambert	NNP	B-NP	12	567
 Co.	NNP	I-NP	13	567
 and	CC	O	14	567
 the	DT	O	15	567
-Squibb	NNP	B-NP	16	567
+Squibb	NNP	B-NP	16	567	ARG1
 Corp.	NNP	I-NP	17	567
 unit	NN	B-NP	18	567	PRED
 of	IN	B-PP	19	567
@@ -16926,7 +16926,7 @@ plan	NN	I-NP	8	568
 that	WDT	B-NP	9	568
 would	MD	O	10	568
 make	VB	O	11	568
-it	PRP	B-NP	12	568
+it	PRP	B-NP	12	568	ARG1
 a	DT	B-NP	13	568
 unit	NN	I-NP	14	568	PRED
 of	IN	B-PP	15	568
@@ -17022,7 +17022,7 @@ notice	NN	B-NP	32	570
 that	IN	O	33	570
 Imperial	NNP	B-NP	34	570
 's	POS	B-NP	35	570
-thrift	NN	I-NP	36	570
+thrift	NN	I-NP	36	570	ARG1
 unit	NN	I-NP	37	570	PRED
 failed	VBD	O	38	570
 to	TO	O	39	570
@@ -17051,13 +17051,13 @@ to	TO	O	14	571
 sell	VB	O	15	571
 63	CD	B-NP	16	571
 of	IN	B-PP	17	571
-its	PRP$	B-NP	18	571
+its	PRP$	B-NP	18	571	ARG1
 71	CD	I-NP	19	571
 branches	NNS	I-NP	20	571
 to	IN	B-PP	21	571
 Great	NNP	B-NP	22	571
 Western	NNP	I-NP	23	571
-Bank	NNP	I-NP	24	571
+Bank	NNP	I-NP	24	571	ARG1
 COMMA	COMMA	O	25	571
 a	DT	B-NP	26	571
 unit	NN	I-NP	27	571	PRED
@@ -17166,7 +17166,7 @@ Joseph	NNP	B-NP	14	574
 T.	NNP	I-NP	15	574
 Ryerson	NNP	I-NP	16	574
 &	NNP	I-NP	17	574
-Son	NNP	I-NP	18	574
+Son	NNP	I-NP	18	574	ARG1
 unit	NN	B-NP	19	574	PRED
 .	.	O	20	574
 
@@ -17216,7 +17216,7 @@ AMR	NNP	B-NP	25	576
 Corp.	NNP	I-NP	26	576
 's	POS	B-NP	27	576
 American	NNP	I-NP	28	576
-Airlines	NNP	I-NP	29	576
+Airlines	NNP	I-NP	29	576	ARG1
 unit	NN	B-NP	30	576	PRED
 and	CC	O	31	576
 several	DT	B-NP	32	576
@@ -17322,11 +17322,11 @@ Corp.	NNP	I-NP	24	579
 Pan	NNP	I-NP	26	579
 American	NNP	I-NP	27	579
 World	NNP	I-NP	28	579
-Airways	NNP	I-NP	29	579
+Airways	NNP	I-NP	29	579	ARG1
 unit	NN	B-NP	30	579	PRED
 and	CC	O	31	579
 Midway	NNP	B-NP	32	579
-Airlines	NNP	I-NP	33	579
+Airlines	NNP	I-NP	33	579	ARG1
 at	IN	B-PP	34	579
 the	DT	B-NP	35	579
 end	NN	I-NP	36	579
@@ -17346,7 +17346,7 @@ AMR	NNP	B-NP	7	580
 Corp.	NNP	I-NP	8	580
 's	POS	B-NP	9	580
 American	NNP	I-NP	10	580
-Airlines	NNP	I-NP	11	580
+Airlines	NNP	I-NP	11	580	ARG1
 unit	NN	B-NP	12	580	PRED
 and	CC	O	13	580
 Delta	NNP	B-NP	14	580
@@ -17375,7 +17375,7 @@ USAir	NNP	B-NP	17	581
 Group	NNP	I-NP	18	581
 Inc.	NNP	I-NP	19	581
 's	POS	B-NP	20	581
-USAir	NNP	I-NP	21	581
+USAir	NNP	I-NP	21	581	ARG1
 unit	NN	I-NP	22	581	PRED
 .	.	O	23	581
 
@@ -17541,7 +17541,7 @@ drop	VB	O	21	585
 a	DT	B-NP	22	585
 variety	NN	I-NP	23	585	PRED
 of	IN	B-PP	24	585
-spending	NN	B-NP	25	585
+spending	NN	B-NP	25	585	ARG1
 measures	NNS	I-NP	26	585	ARG1
 and	CC	O	27	585
 tax	NN	B-NP	28	585
@@ -17635,7 +17635,7 @@ S&P	NNP	I-NP	6	589
 500	CD	I-NP	7	589
 pit	NN	I-NP	8	589
 in	IN	B-PP	9	589
-Chicago	NNP	B-NP	10	589
+Chicago	NNP	B-NP	10	589	ARG1
 COMMA	COMMA	O	11	589
 waves	NNS	B-NP	12	589	PRED
 of	IN	B-PP	13	589
@@ -17681,7 +17681,7 @@ they	PRP	B-NP	18	590
 have	VBP	O	19	590
 a	DT	B-NP	20	590
 strong	JJ	I-NP	21	590
-defense	NN	I-NP	22	590
+defense	NN	I-NP	22	590	ARG1
 against	IN	B-PP	23	590
 any	DT	B-NP	24	590
 wave	NN	I-NP	25	590	PRED
@@ -17697,7 +17697,7 @@ was	VBD	O	2	591
 notable	JJ	B-ADJP	3	591
 for	IN	B-PP	4	591
 a	DT	B-NP	5	591
-heat	NN	I-NP	6	591
+heat	NN	I-NP	6	591	ARG1
 wave	NN	I-NP	7	591	PRED
 and	CC	I-NP	8	591
 drought	NN	I-NP	9	591	ARG1
