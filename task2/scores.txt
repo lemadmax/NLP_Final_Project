@@ -1,0 +1,31 @@
+on training and test data sets
+
+without path:
+299 out of 555 tags correct
+  accuracy: 53.87
+555 groups in key
+608 groups in response
+299 correct groups
+  precision: 49.18
+  recall:    53.87
+  F1:        51.42
+
+with path
+186 out of 328 tags correct
+  accuracy: 56.71
+328 groups in key
+274 groups in response
+186 correct groups
+  precision: 67.88
+  recall:    56.71
+  F1:        61.79
+
+not using partial_fit (not batched system)
+312 out of 328 tags correct
+  accuracy: 95.12
+328 groups in key
+315 groups in response
+312 correct groups
+  precision: 99.05
+  recall:    95.12
+  F1:        97.05
